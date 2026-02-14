@@ -1,0 +1,82 @@
+{
+  "summary": "Frontend Engineer with 3+ years of experience building scalable, high-performance web applications using React and Angular.Passionate about clean code, automated testing, and delivering reliable user experiences. Proven track record in performance optimization, real-time architecture, and collaboration across global agile teams.",
+  "skills": {
+    "languages": ["TypeScript", "JavaScript", "HTML5", "CSS3"],
+    "frameworks": [
+      "React",
+      "Angular",
+      "Node.js",
+      ".NET",
+      "RxJS",
+      "Redux",
+      "Jest"
+    ],
+    "tools": [
+      "Git",
+      "Docker",
+      "Webpack",
+      "Chrome DevTools",
+      "WebGL",
+      "Canvas API"
+    ]
+  },
+  "experience": [
+    {
+      "company": "CareStack",
+      "role": "Software Engineer",
+      "duration": "October 2023 - Present",
+      "bullets": [
+        "Engineered high-performance dental imaging software using Angular + TypeScript and .NET for real-time X-ray communication, achieving 60 FPS rendering.",
+        "Architected web-based image editor using Canvas and WebGL, serving 100+ dental groups with 99.9% WebSocket reliability.",
+        "Optimized performance using IndexedDB caching, code splitting and Docker-based deployments reducing load times by 20% with cross-browser compatibility.",
+        "Collaborated with QA and backend teams to debug real-time data issues across services, ensuring consistent reliability in production deployments."
+      ]
+    },
+    {
+      "company": "Inflection.io",
+      "role": "Product Engineer",
+      "duration": "August 2022 - October 2023",
+      "bullets": [
+        "Increased development velocity by 40% building reusable UI components using React + TypeScript for marketing automation platform.",
+        "Reduced web app load times by 66% through bundle optimization, lazy loading, and Redux state management for 10+ B2B customers.",
+        "Developed scalable frontend architecture and collaborated with UX teams to deliver high-engagement interfaces using Agile methodologies.",
+        "Practiced pair programming and thorough code reviews to maintain high-quality standards and clean code practices."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Task Trekker",
+      "tech-stack": ["Next.js", "Shadcn UI", "Clerk Auth", "SCSS"],
+      "website-link": "https://github.com/Ash-jo121/task-trekker",
+      "bullets": [
+        "Built full-stack project management application with real-time collaboration, task tracking, and team coordination features."
+      ]
+    },
+    {
+      "name": "Applicant Tracking System",
+      "tech-stack": ["React", "Material UI", "Node.js"],
+      "website-link": "",
+      "bullets": [
+        "Developed responsive HR application for candidate tracking with filtering, sorting, and dashboard analytics."
+      ]
+    },
+    {
+      "name": "Decentralized Campaign Manager",
+      "tech-stack": ["Next.js", "Solidity", "Web3.js"],
+      "website-link": "https://github.com/Ash-jo121/Campaign-Manager",
+      "bullets": [
+        "Created blockchain-based crowdfunding platform enabling transparent campaign creation and funding via Ethereum smart contracts."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology in Computer Science and Engineering",
+      "institution": "College of Engineering, Trivandrum",
+      "duration": "2018 - 2022",
+      "bullets": ["Graduated with honors in Computer Science and Engineering"],
+      "gpa": "8.98"
+    }
+  ]
+}
