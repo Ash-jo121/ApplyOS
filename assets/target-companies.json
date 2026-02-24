@@ -1,41 +1,42 @@
 [
-    {
-        "companyName":"Cred",
-        "companyCareersPage":"https://careers.cred.club/openings"
-    },
-    {
-        "companyName":"Razorpay",
-        "companyCareersPage":"https://razorpay.com/jobs/jobs-all/"
-    },
-    {
-        "companyName":"Flipkart",
-        "companyCareersPage":"https://www.flipkartcareers.com/flipkart/jobslist"
-    },
-    {
-        "companyName":"Atlassian",
-        "companyCareersPage":"https://www.atlassian.com/company/careers/all-jobs?team=&location=India"
-    },
-    {
-        "companyName":"Myntra",
-        "companyCareersPage":"https://jobs.myntra.com/jobs"
-    },
-    {
-        "companyName":"Swiggy",
-        "companyCareersPage":"https://careers.swiggy.com/#/careers"
-    },
-    {
-        "companyName":"Ola",
-        "companyCareersPage":"https://olacareers.turbohire.co/"
-    },
-    {
-        "companyName":"PhonePe",
-        "companyCareersPage":"https://www.phonepe.com/careers/job-openings/"
-    },
-    {
-        "companyName":"Meesho",
-        "companyCareersPage":"https://www.meesho.io/jobs"
-    },{
-        "companyName":"Groww",
-        "companyCareersPage":"https://job-boards.eu.greenhouse.io/groww"
-    }
+  {
+    "companyName": "Cred",
+    "companyCareersPage": "https://careers.cred.club/openings"
+  },
+  {
+    "companyName": "Razorpay",
+    "companyCareersPage": "https://razorpay.com/jobs/jobs-all/"
+  },
+  {
+    "companyName": "Flipkart",
+    "companyCareersPage": "https://www.flipkartcareers.com/flipkart/jobslist"
+  },
+  {
+    "companyName": "Atlassian",
+    "companyCareersPage": "https://www.atlassian.com/company/careers/all-jobs?team=&location=India"
+  },
+  {
+    "companyName": "Myntra",
+    "companyCareersPage": "https://jobs.myntra.com/jobs"
+  },
+  {
+    "companyName": "Swiggy",
+    "companyCareersPage": "https://careers.swiggy.com/#/careers"
+  },
+  {
+    "companyName": "Ola",
+    "companyCareersPage": "https://olacareers.turbohire.co/"
+  },
+  {
+    "companyName": "PhonePe",
+    "companyCareersPage": "https://www.phonepe.com/careers/job-openings/"
+  },
+  {
+    "companyName": "Meesho",
+    "companyCareersPage": "https://www.meesho.io/jobs"
+  },
+  {
+    "companyName": "Groww",
+    "companyCareersPage": "https://job-boards.eu.greenhouse.io/groww"
+  }
 ]
