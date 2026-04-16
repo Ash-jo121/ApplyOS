@@ -1,5 +1,6 @@
 import { GreenhouseScraper } from "../scrapers/GreenhouseScraper";
 import { LeverScraper } from "../scrapers/LeverScraper";
+import { MyNextHireScraper } from "../scrapers/MyNextHireScraper";
 import { IScraper, TargetCompany } from "../types/Scraper";
 import { detectAts } from "./AtsDetector";
 
@@ -22,6 +23,11 @@ export class ScraperFactory {
         );
       case "lever":
         return new LeverScraper(detected.companyToken, company.companyName);
+      case "mynexthire":
+        return new MyNextHireScraper(
+          detected.companyToken,
+          company.companyName,
+        );
       case "workday":
         throw new Error(
           `Workday scraper not yet implemented (${company.companyName}). ` +

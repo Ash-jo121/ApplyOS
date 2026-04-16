@@ -1,6 +1,11 @@
 // ─── ATS / Scraper types ──────────────────────────────────────────────────────
 
-export type AtsType = "greenhouse" | "lever" | "workday" | "generic";
+export type AtsType =
+  | "greenhouse"
+  | "lever"
+  | "workday"
+  | "mynexthire"
+  | "generic";
 
 export interface NormalizedJob {
   externalId: string;

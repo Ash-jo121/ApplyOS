@@ -12,8 +12,6 @@ interface UrlRule {
 const URL_RULES: UrlRule[] = [
   {
     atsType: "greenhouse",
-    // Matches: boards.greenhouse.io/token, job-boards.greenhouse.io/token,
-    //          job-boards.eu.greenhouse.io/token
     pattern: /greenhouse\.io\/([^\/\?#]+)/i,
     extractToken: (m) => m[1],
   },
@@ -24,8 +22,13 @@ const URL_RULES: UrlRule[] = [
   },
   {
     atsType: "workday",
-    // e.g. atlassian.wd1.myworkdayjobs.com
     pattern: /([^.]+)\.wd\d+\.myworkdayjobs\.com/i,
+    extractToken: (m) => m[1],
+  },
+  {
+    // e.g. swiggy.mynexthire.com → token = "swiggy"
+    atsType: "mynexthire",
+    pattern: /([^.]+)\.mynexthire\.com/i,
     extractToken: (m) => m[1],
   },
 ];
@@ -47,14 +50,18 @@ export const KNOWN_COMPANIES: Record<
     atsType: "greenhouse",
     companyToken: "razorpaysoftwareprivatelimited",
   },
-  "careers.swiggy.com": { atsType: "greenhouse", companyToken: "swiggy" },
-  "olacareers.turbohire.co": { atsType: "greenhouse", companyToken: "ola" },
 
   // Lever
   "jobs.lever.co/meesho": { atsType: "lever", companyToken: "meesho" },
   "jobs.lever.co/cred": { atsType: "lever", companyToken: "cred" },
   "careers.cred.club": { atsType: "lever", companyToken: "cred" },
   "www.meesho.io": { atsType: "lever", companyToken: "meesho" },
+
+  // MyNextHire — Swiggy confirmed via DevTools (POST swiggy.mynexthire.com/employer/careers/reqlist/get)
+  "careers.swiggy.com": { atsType: "mynexthire", companyToken: "swiggy" },
+
+  // Unsupported — no public API available
+  // Ola: TurboHire (closed Indian ATS, no public job API)
 };
 
 // ─── DOM fingerprints (fallback when URL patterns don't match) ────────────────
@@ -87,6 +94,14 @@ const DOM_FINGERPRINTS: DomFingerprint[] = [
     signals: ["myworkdayjobs.com"],
     extractToken: (html) => {
       const m = html.match(/([a-z0-9_-]+)\.wd\d+\.myworkdayjobs\.com/i);
+      return m?.[1] || null;
+    },
+  },
+  {
+    atsType: "mynexthire",
+    signals: ["mynexthire.com"],
+    extractToken: (html) => {
+      const m = html.match(/([a-z0-9_-]+)\.mynexthire\.com/i);
       return m?.[1] || null;
     },
   },
