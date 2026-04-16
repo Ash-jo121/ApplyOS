@@ -1,41 +1,42 @@
-import { createScraperFromUrl } from "./scrapers/greenhouse-scraper";
+import { ScraperFactory } from "./core/ScraperFactory";
 
-async function scrapeCompany(companyToBeScraped) {
-  const scraper = createScraperFromUrl(companyToBeScraped.companyCareersPage);
-  const jobList = await scraper.fetchJobs();
+const TARGET_COMPANIES = [
+  {
+    companyName: "Groww",
+    companyCareersPage: "https://job-boards.eu.greenhouse.io/groww",
+    keywords: ["frontend", "ui", "React", "Angular"],
+  },
+  {
+    companyName: "Razorpay",
+    companyCareersPage: "https://razorpay.com/jobs/",
+    keywords: ["frontend", "React", "ui engineer"],
+  },
+];
 
-  if (jobList.length === 0) {
-    return { jobs: [], matchedJobs: [], totalMatchedJobs: 0, totalJobs: 0 };
-  }
+async function scrapeCompany(company: (typeof TARGET_COMPANIES)[0]) {
+  console.log(`\n── ${company.companyName} ──────────────────────`);
+  const scraper = await ScraperFactory.fromUrl(company.companyCareersPage);
+  const jobs = await scraper.fetchJobs();
+  const matched = scraper.filterByKeywords(jobs, company.keywords);
 
-  const filterdJobs = scraper.filterByKeywords(
-    jobList,
-    companyToBeScraped.keywords,
+  console.log(`Total: ${jobs.length} | Matched: ${matched.length}`);
+  matched.forEach((j) =>
+    console.log(`  ✓ ${j.title} — ${j.location}\n    ${j.absoluteUrl}`)
   );
-  return {
-    jobs: jobList,
-    matchedJobs: filterdJobs,
-    totalMatchedJobs: filterdJobs.length,
-    totalJobs: jobList.length,
-  };
+
+  return { company: company.companyName, jobs, matched };
 }
 
 async function main() {
-  console.log("ApplyOS booting...");
-  console.log("Loading target companies...");
-  console.log("Starting job scraping...");
+  console.log("ApplyOS booting...\n");
 
-  const companyToBeScraped = {
-    companyName: "Groww",
-    companyCareersPage: "https://job-boards.eu.greenhouse.io/groww",
-    ats: "greenhouse",
-    keywords: ["frontend", "ui", "React", "Angular"],
-  };
-
-  const scrapedData = await scrapeCompany(companyToBeScraped);
-  //console.log(scrapedData);
+  for (const company of TARGET_COMPANIES) {
+    try {
+      await scrapeCompany(company);
+    } catch (err: any) {
+      console.error(`✗ ${company.companyName}: ${err.message}`);
+    }
+  }
 }
 
-if (require.main === module) {
-  main().catch(console.error);
-}
+main().catch(console.error);
