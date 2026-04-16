@@ -1,42 +1,91 @@
+import * as path from "path";
+import * as fs from "fs";
+import { Resume, ScrapeResult, TargetCompany } from "./types/Scraper";
 import { ScraperFactory } from "./core/ScraperFactory";
+import { filterByKeywords } from "./utils/FilterbyKeywords";
 
-const TARGET_COMPANIES = [
-  {
-    companyName: "Groww",
-    companyCareersPage: "https://job-boards.eu.greenhouse.io/groww",
-    keywords: ["frontend", "ui", "React", "Angular"],
-  },
-  {
-    companyName: "Razorpay",
-    companyCareersPage: "https://razorpay.com/jobs/",
-    keywords: ["frontend", "React", "ui engineer"],
-  },
-];
+// ─── Load config files ────────────────────────────────────────────────────────
 
-async function scrapeCompany(company: (typeof TARGET_COMPANIES)[0]) {
-  console.log(`\n── ${company.companyName} ──────────────────────`);
-  const scraper = await ScraperFactory.fromUrl(company.companyCareersPage);
-  const jobs = await scraper.fetchJobs();
-  const matched = scraper.filterByKeywords(jobs, company.keywords);
+const ASSETS_DIR = path.join(__dirname, "../assets");
 
-  console.log(`Total: ${jobs.length} | Matched: ${matched.length}`);
-  matched.forEach((j) =>
-    console.log(`  ✓ ${j.title} — ${j.location}\n    ${j.absoluteUrl}`)
-  );
+function loadJson<T>(filename: string): T {
+  return JSON.parse(fs.readFileSync(path.join(ASSETS_DIR, filename), "utf-8"));
+}
 
-  return { company: company.companyName, jobs, matched };
+// ─── Core pipeline ────────────────────────────────────────────────────────────
+
+async function scrapeCompany(
+  company: TargetCompany,
+  keywords: string[],
+): Promise<ScrapeResult> {
+  try {
+    const scraper = await ScraperFactory.fromCompany(company);
+    const allJobs = await scraper.fetchJobs();
+    const matchedJobs = filterByKeywords(allJobs, keywords);
+
+    return {
+      companyName: company.companyName,
+      totalJobs: allJobs.length,
+      matchedJobs,
+    };
+  } catch (err: any) {
+    return {
+      companyName: company.companyName,
+      totalJobs: 0,
+      matchedJobs: [],
+      error: err.message,
+    };
+  }
 }
 
 async function main() {
-  console.log("ApplyOS booting...\n");
+  // Global keywords — in the real UI, user sets these once
+  const keywords = ["frontend", "ui", "React", "Angular"];
 
-  for (const company of TARGET_COMPANIES) {
-    try {
-      await scrapeCompany(company);
-    } catch (err: any) {
-      console.error(`✗ ${company.companyName}: ${err.message}`);
+  const companies = loadJson<TargetCompany[]>("target-companies.json");
+  const resume = loadJson<Resume>("resume.json");
+
+  console.log("ApplyOS booting...");
+  console.log(`Keywords: [${keywords.join(", ")}]`);
+  console.log(`Companies: ${companies.map((c) => c.companyName).join(", ")}\n`);
+
+  const results: ScrapeResult[] = [];
+
+  for (const company of companies) {
+    console.log(
+      `\n── ${company.companyName} ${"─".repeat(40 - company.companyName.length)}`,
+    );
+    const result = await scrapeCompany(company, keywords);
+    results.push(result);
+
+    if (result.error) {
+      console.log(`  ✗ ${result.error}`);
+      continue;
     }
+
+    console.log(
+      `  Total: ${result.totalJobs} | Matched: ${result.matchedJobs.length}`,
+    );
+    result.matchedJobs.forEach((job) => {
+      console.log(`  ✓ ${job.title} — ${job.location}`);
+      console.log(`    ${job.absoluteUrl}`);
+    });
   }
+
+  // Summary
+  console.log("\n\n══ Summary ══════════════════════════════════════");
+  const totalMatched = results.reduce((n, r) => n + r.matchedJobs.length, 0);
+  const errors = results.filter((r) => r.error);
+  console.log(`Matched jobs: ${totalMatched}`);
+  console.log(
+    `Scraped OK:   ${results.length - errors.length}/${results.length} companies`,
+  );
+  if (errors.length) {
+    console.log(`\nNot yet supported:`);
+    errors.forEach((r) => console.log(`  • ${r.companyName}: ${r.error}`));
+  }
+
+  // TODO: feed matchedJobs + resume into resume mutation pipeline
 }
 
 main().catch(console.error);

@@ -1,16 +1,17 @@
 import axios from "axios";
 import { BaseScraper } from "./BaseScraper";
 import { AtsType, NormalizedJob } from "../types/Scraper";
-
 export class GreenhouseScraper extends BaseScraper {
   readonly atsType: AtsType = "greenhouse";
   readonly companyToken: string;
+  readonly companyName: string;
 
   private readonly baseUrl = "https://boards-api.greenhouse.io/v1/boards";
 
-  constructor(companyToken: string) {
+  constructor(companyToken: string, companyName: string) {
     super();
     this.companyToken = companyToken;
+    this.companyName = companyName;
   }
 
   async fetchJobs(): Promise<NormalizedJob[]> {
@@ -24,9 +25,7 @@ export class GreenhouseScraper extends BaseScraper {
     });
 
     const jobs = response.data.jobs || [];
-    console.log(
-      `[Greenhouse] ✓ ${jobs.length} jobs for "${this.companyToken}"`,
-    );
+    console.log(`[Greenhouse] ✓ ${jobs.length} jobs for "${this.companyName}"`);
     return jobs.map((job: any) => this.normalize(job));
   }
 
@@ -43,6 +42,7 @@ export class GreenhouseScraper extends BaseScraper {
     return {
       externalId: job.id?.toString(),
       companyToken: this.companyToken,
+      companyName: this.companyName,
       source: this.atsType,
       title: job.title,
       location: job.location?.name || "Remote",

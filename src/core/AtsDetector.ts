@@ -6,25 +6,20 @@ import { AtsType, DetectedAts } from "../types/Scraper";
 interface UrlRule {
   atsType: AtsType;
   pattern: RegExp;
-  extractToken: (match: RegExpMatchArray, url: string) => string;
+  extractToken: (match: RegExpMatchArray) => string;
 }
 
 const URL_RULES: UrlRule[] = [
   {
     atsType: "greenhouse",
+    // Matches: boards.greenhouse.io/token, job-boards.greenhouse.io/token,
+    //          job-boards.eu.greenhouse.io/token
     pattern: /greenhouse\.io\/([^\/\?#]+)/i,
     extractToken: (m) => m[1],
   },
   {
     atsType: "lever",
     pattern: /jobs\.lever\.co\/([^\/\?#]+)/i,
-    extractToken: (m) => m[1],
-  },
-  {
-    atsType: "lever",
-    // Razorpay and some others embed Lever under their own domain
-    // We detect these via DOM fingerprint below
-    pattern: /lever\.co\/([^\/\?#]+)/i,
     extractToken: (m) => m[1],
   },
   {
@@ -35,81 +30,129 @@ const URL_RULES: UrlRule[] = [
   },
 ];
 
-// ─── DOM fingerprints (for custom career pages that embed an ATS) ─────────────
+// ─── Known company overrides (researched) ────────────────────────────────────
+// For companies whose careers page URL gives no ATS signal (custom domains).
+// Saves a DOM fetch round-trip for known targets.
+
+export const KNOWN_COMPANIES: Record<
+  string,
+  { atsType: AtsType; companyToken: string }
+> = {
+  // Greenhouse
+  "job-boards.eu.greenhouse.io/groww": {
+    atsType: "greenhouse",
+    companyToken: "groww",
+  },
+  "razorpay.com": {
+    atsType: "greenhouse",
+    companyToken: "razorpaysoftwareprivatelimited",
+  },
+  "careers.swiggy.com": { atsType: "greenhouse", companyToken: "swiggy" },
+  "olacareers.turbohire.co": { atsType: "greenhouse", companyToken: "ola" },
+
+  // Lever
+  "jobs.lever.co/meesho": { atsType: "lever", companyToken: "meesho" },
+  "jobs.lever.co/cred": { atsType: "lever", companyToken: "cred" },
+  "careers.cred.club": { atsType: "lever", companyToken: "cred" },
+  "www.meesho.io": { atsType: "lever", companyToken: "meesho" },
+};
+
+// ─── DOM fingerprints (fallback when URL patterns don't match) ────────────────
 
 interface DomFingerprint {
   atsType: AtsType;
-  // Strings to look for in the raw HTML of the page
   signals: string[];
-  // How to extract the company token from the matched URL/HTML
-  extractToken: (html: string, url: string) => string | null;
+  extractToken: (html: string) => string | null;
 }
 
 const DOM_FINGERPRINTS: DomFingerprint[] = [
   {
     atsType: "greenhouse",
-    signals: ["greenhouse.io", "boards.greenhouse.io", "grnh.se"],
+    signals: ["boards.greenhouse.io", "boards-api.greenhouse.io", "grnh.se"],
     extractToken: (html) => {
-      const match = html.match(/greenhouse\.io\/([a-z0-9_-]+)/i);
-      return match?.[1] || null;
+      const m = html.match(/greenhouse\.io\/([a-z0-9_-]+)/i);
+      return m?.[1] || null;
     },
   },
   {
     atsType: "lever",
     signals: ["jobs.lever.co", "lever.co/apply"],
     extractToken: (html) => {
-      const match = html.match(/jobs\.lever\.co\/([a-z0-9_-]+)/i);
-      return match?.[1] || null;
+      const m = html.match(/jobs\.lever\.co\/([a-z0-9_-]+)/i);
+      return m?.[1] || null;
     },
   },
   {
     atsType: "workday",
-    signals: ["myworkdayjobs.com", "workday.com/en-US/index.html"],
-    extractToken: (html, url) => {
-      const match = html.match(/([a-z0-9_-]+)\.wd\d+\.myworkdayjobs\.com/i);
-      return match?.[1] || null;
+    signals: ["myworkdayjobs.com"],
+    extractToken: (html) => {
+      const m = html.match(/([a-z0-9_-]+)\.wd\d+\.myworkdayjobs\.com/i);
+      return m?.[1] || null;
     },
   },
 ];
 
 // ─── Main detector ────────────────────────────────────────────────────────────
 
-export async function detectAts(url: string): Promise<DetectedAts | null> {
-  // 1. Fast path: URL pattern match
+export async function detectAts(
+  url: string,
+  companyName: string,
+): Promise<DetectedAts | null> {
+  // 1. Known company lookup (fastest — no network)
+  const known = lookupKnown(url);
+  if (known) {
+    console.log(
+      `[ATS Detector] Known override → ${known.atsType} ("${known.companyToken}") for ${companyName}`,
+    );
+    return { ...known, normalizedUrl: url };
+  }
+
+  // 2. URL pattern match (fast, no network)
   const fromUrl = detectFromUrl(url);
   if (fromUrl) {
     console.log(
-      `[ATS Detector] URL match → ${fromUrl.atsType} ("${fromUrl.companyToken}")`,
+      `[ATS Detector] URL match → ${fromUrl.atsType} ("${fromUrl.companyToken}") for ${companyName}`,
     );
     return fromUrl;
   }
 
-  // 2. Slow path: fetch page and fingerprint DOM
-  console.log(`[ATS Detector] No URL match, fetching DOM for: ${url}`);
+  // 3. DOM fingerprint (slow — one HTTP fetch)
+  console.log(`[ATS Detector] Fetching DOM for ${companyName}: ${url}`);
   try {
     const response = await axios.get(url, {
       headers: { "User-Agent": "ApplyOS/1.0" },
       timeout: 15000,
     });
     const html: string = response.data?.toString() || "";
-    const fromDom = detectFromDom(html, url);
+    const fromDom = detectFromDom(html);
     if (fromDom) {
       console.log(
-        `[ATS Detector] DOM fingerprint → ${fromDom.atsType} ("${fromDom.companyToken}")`,
+        `[ATS Detector] DOM fingerprint → ${fromDom.atsType} ("${fromDom.companyToken}") for ${companyName}`,
       );
-      return fromDom;
+      return { ...fromDom, normalizedUrl: url };
     }
   } catch (err: any) {
     console.warn(`[ATS Detector] DOM fetch failed for ${url}: ${err.message}`);
   }
 
-  // 3. Unknown — fall back to generic scraper
-  console.log(`[ATS Detector] Unknown ATS, falling back to generic`);
+  // 4. Unknown — signal generic scraper needed
+  console.log(
+    `[ATS Detector] Unknown ATS for ${companyName}, falling back to generic`,
+  );
   return {
     atsType: "generic",
     companyToken: extractDomainAsToken(url),
     normalizedUrl: url,
   };
+}
+
+function lookupKnown(
+  url: string,
+): { atsType: AtsType; companyToken: string } | null {
+  for (const [pattern, config] of Object.entries(KNOWN_COMPANIES)) {
+    if (url.includes(pattern)) return config;
+  }
+  return null;
 }
 
 function detectFromUrl(url: string): DetectedAts | null {
@@ -118,7 +161,7 @@ function detectFromUrl(url: string): DetectedAts | null {
     if (match) {
       return {
         atsType: rule.atsType,
-        companyToken: rule.extractToken(match, url),
+        companyToken: rule.extractToken(match),
         normalizedUrl: url,
       };
     }
@@ -126,18 +169,13 @@ function detectFromUrl(url: string): DetectedAts | null {
   return null;
 }
 
-function detectFromDom(html: string, originalUrl: string): DetectedAts | null {
-  for (const fingerprint of DOM_FINGERPRINTS) {
-    const hit = fingerprint.signals.some((signal) => html.includes(signal));
-    if (hit) {
-      const token = fingerprint.extractToken(html, originalUrl);
-      if (token) {
-        return {
-          atsType: fingerprint.atsType,
-          companyToken: token,
-          normalizedUrl: originalUrl,
-        };
-      }
+function detectFromDom(
+  html: string,
+): Omit<DetectedAts, "normalizedUrl"> | null {
+  for (const fp of DOM_FINGERPRINTS) {
+    if (fp.signals.some((s) => html.includes(s))) {
+      const token = fp.extractToken(html);
+      if (token) return { atsType: fp.atsType, companyToken: token };
     }
   }
   return null;

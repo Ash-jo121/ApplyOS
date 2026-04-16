@@ -1,40 +1,38 @@
 import { GreenhouseScraper } from "../scrapers/GreenhouseScraper";
-import { LeverScraper } from "../scrapers/LevelScraper";
-import { IScraper } from "../types/Scraper";
+import { LeverScraper } from "../scrapers/LeverScraper";
+import { IScraper, TargetCompany } from "../types/Scraper";
 import { detectAts } from "./AtsDetector";
 
 export class ScraperFactory {
-  // Create a scraper from a careers page URL.
-  // Runs ATS detection automatically.
-  static async fromUrl(url: string): Promise<IScraper> {
-    const detected = await detectAts(url);
+  static async fromCompany(company: TargetCompany): Promise<IScraper> {
+    const detected = await detectAts(
+      company.companyCareersPage,
+      company.companyName,
+    );
 
     if (!detected) {
-      throw new Error(`Could not detect ATS for URL: ${url}`);
+      throw new Error(`Could not detect ATS for: ${company.companyName}`);
     }
 
-    return ScraperFactory.fromDetected(detected.atsType, detected.companyToken);
-  }
-
-  // Create a scraper when you already know the ATS and token.
-  static fromDetected(atsType: string, companyToken: string): IScraper {
-    switch (atsType) {
+    switch (detected.atsType) {
       case "greenhouse":
-        return new GreenhouseScraper(companyToken);
+        return new GreenhouseScraper(
+          detected.companyToken,
+          company.companyName,
+        );
       case "lever":
-        return new LeverScraper(companyToken);
+        return new LeverScraper(detected.companyToken, company.companyName);
       case "workday":
-        // TODO: WorkdayScraper
         throw new Error(
-          `Workday scraper not yet implemented for: ${companyToken}`,
+          `Workday scraper not yet implemented (${company.companyName}). ` +
+            `This affects: Atlassian, PhonePe, Flipkart, Myntra.`,
         );
       case "generic":
-        // TODO: GenericScraper (Playwright)
         throw new Error(
-          `Generic scraper not yet implemented for: ${companyToken}`,
+          `Generic/headless scraper not yet implemented (${company.companyName}).`,
         );
       default:
-        throw new Error(`Unknown ATS type: ${atsType}`);
+        throw new Error(`Unknown ATS type: ${detected.atsType}`);
     }
   }
 }

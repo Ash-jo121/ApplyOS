@@ -2,18 +2,17 @@ import axios from "axios";
 import { BaseScraper } from "./BaseScraper";
 import { AtsType, NormalizedJob } from "../types/Scraper";
 
-// Lever public API: https://api.lever.co/v0/postings/{company}
-// Returns all active job postings. No auth required.
-
 export class LeverScraper extends BaseScraper {
   readonly atsType: AtsType = "lever";
   readonly companyToken: string;
+  readonly companyName: string;
 
   private readonly baseUrl = "https://api.lever.co/v0/postings";
 
-  constructor(companyToken: string) {
+  constructor(companyToken: string, companyName: string) {
     super();
     this.companyToken = companyToken;
+    this.companyName = companyName;
   }
 
   async fetchJobs(): Promise<NormalizedJob[]> {
@@ -27,7 +26,7 @@ export class LeverScraper extends BaseScraper {
     });
 
     const jobs: any[] = response.data || [];
-    console.log(`[Lever] ✓ ${jobs.length} jobs for "${this.companyToken}"`);
+    console.log(`[Lever] ✓ ${jobs.length} jobs for "${this.companyName}"`);
     return jobs.map((job) => this.normalize(job));
   }
 
@@ -41,23 +40,18 @@ export class LeverScraper extends BaseScraper {
   }
 
   private normalize(job: any): NormalizedJob {
-    // Lever's content is split into sections: description, lists, closing
     const contentParts: string[] = [];
-
     if (job.descriptionPlain) contentParts.push(job.descriptionPlain);
-
-    if (job.lists?.length) {
-      for (const list of job.lists) {
-        if (list.text) contentParts.push(list.text);
-        if (list.content) contentParts.push(this.stripHtml(list.content));
-      }
+    for (const list of job.lists || []) {
+      if (list.text) contentParts.push(list.text);
+      if (list.content) contentParts.push(this.stripHtml(list.content));
     }
-
     if (job.additionalPlain) contentParts.push(job.additionalPlain);
 
     return {
       externalId: job.id,
       companyToken: this.companyToken,
+      companyName: this.companyName,
       source: this.atsType,
       title: job.text,
       location: job.categories?.location || job.workplaceType || "Remote",
