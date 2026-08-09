@@ -6,9 +6,7 @@ It does not apply to jobs, upload a resume, or mutate resume content.
 
 ## What it watches
 
-CRED, Practo, Observe.AI, JPMorgan Chase, Microsoft, Cadence, JioHotstar, IBM ISL, Ameriprise, Walmart, Cohesity, Nutanix, Societe Generale, Cisco, Nike, Thoughtworks, Ather, and Target.
-
-The source adapters use official Workday, Greenhouse, Lever, Oracle Recruiting, or company-hosted pages. A source failure is isolated and shown on the dashboard without stopping the remaining companies.
+It watches a set of prospective companies. The source adapters use official Workday, Greenhouse, Lever, Oracle Recruiting, or company-hosted pages. A source failure is isolated and shown on the dashboard without stopping the remaining companies.
 
 ## Matching profile
 
