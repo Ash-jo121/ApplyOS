@@ -1,19 +1,25 @@
 {
   "name": "applyos",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx src/main.ts"
+    "build": "tsc --noEmit",
+    "dev": "tsx src/server.ts",
+    "scan": "tsx src/cli.ts",
+    "scan:notify": "tsx src/cli.ts --notify",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A personal frontend job radar for referral-first companies.",
   "dependencies": {
     "@types/node": "^25.2.3",
-    "axios": "^1.13.5",
-    "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "cheerio": "^1.2.0",
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.10"
   }
 }

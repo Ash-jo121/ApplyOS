@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A personal referral-first frontend job radar." />
+    <title>ApplyOS — Frontend Job Radar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="./" aria-label="ApplyOS home">
+          <span class="brand-mark">A</span>
+          <span>ApplyOS</span>
+        </a>
+        <div class="scan-state"><span class="pulse"></span><span id="scan-label">Loading radar…</span></div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="eyebrow">REFERRAL-FIRST JOB RADAR</div>
+          <h1>Your shortlist,<br /><span>always watching.</span></h1>
+          <p class="hero-copy">Frontend roles matched to 4 years of React, TypeScript, Angular, UI architecture, performance, and accessibility experience. No auto-apply—just the source link.</p>
+          <div class="hero-meta">
+            <span>INDIA + REMOTE</span><i></i><span>EVERY 6 HOURS</span><i></i><span>18 COMPANIES</span>
+          </div>
+        </section>
+
+        <section class="metrics" aria-label="Radar summary">
+          <article><div class="metric-label">ACTIVE MATCHES</div><strong id="match-count">—</strong><span>worth a closer look</span></article>
+          <article><div class="metric-label">NEW THIS SCAN</div><strong id="new-count">—</strong><span>not seen before</span></article>
+          <article><div class="metric-label">SOURCES HEALTHY</div><strong id="health-count">—</strong><span id="health-subtitle">of 18 career portals</span></article>
+        </section>
+
+        <section class="workspace">
+          <div class="section-heading">
+            <div><div class="eyebrow">LIVE OPPORTUNITIES</div><h2>Matched roles</h2></div>
+            <div class="last-updated">LAST SCAN <span id="last-scan">—</span></div>
+          </div>
+
+          <div class="filters">
+            <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search title, company, skill…" /></label>
+            <label><span>Company</span><select id="company-filter"><option value="">All companies</option></select></label>
+            <label><span>Minimum match</span><select id="score-filter"><option value="0">Any score</option><option value="50">50%+</option><option value="65">65%+</option><option value="80">80%+</option></select></label>
+            <label class="new-toggle"><input id="new-only" type="checkbox" /><span>New only</span></label>
+          </div>
+
+          <div id="jobs" class="jobs" aria-live="polite"></div>
+          <div id="empty" class="empty" hidden><div>∅</div><h3>No roles match these filters</h3><p>Clear a filter or let the radar keep watching.</p></div>
+        </section>
+
+        <section class="health-section">
+          <div class="section-heading">
+            <div><div class="eyebrow">SOURCE HEALTH</div><h2>Company coverage</h2></div>
+            <p>Official portals are checked independently, so one outage never stops the rest.</p>
+          </div>
+          <div id="companies" class="company-grid"></div>
+        </section>
+
+        <section class="delivery">
+          <div><div class="eyebrow">DELIVERY</div><h2>Only the signal.</h2><p>New matches can go to email and WhatsApp. The first scan creates a baseline so old openings do not flood your inbox.</p></div>
+          <div class="delivery-status">
+            <div><span id="email-dot" class="status-dot"></span><strong>Email alerts</strong><small id="email-state">Checking…</small></div>
+            <div><span id="whatsapp-dot" class="status-dot"></span><strong>WhatsApp alerts</strong><small id="whatsapp-state">Checking…</small></div>
+          </div>
+        </section>
+      </main>
+
+      <footer><span>APPLYOS / PERSONAL JOB INTELLIGENCE</span><span>Built for Ashish · Bengaluru</span></footer>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
