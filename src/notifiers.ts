@@ -1,9 +1,10 @@
+import nodemailer from "nodemailer";
 import type { Match } from "./types.js";
 
 export function notificationConfig() {
   return {
     emailConfigured: Boolean(
-      process.env.RESEND_API_KEY && process.env.ALERT_EMAIL_TO && process.env.ALERT_EMAIL_FROM,
+      process.env.GMAIL_USER && process.env.GMAIL_APP_PASSWORD,
     ),
     whatsappConfigured: Boolean(
       process.env.WHATSAPP_ACCESS_TOKEN && process.env.WHATSAPP_PHONE_NUMBER_ID && process.env.WHATSAPP_TO,
@@ -51,22 +52,24 @@ export async function sendNotifications(matches: Match[]): Promise<{ email: bool
 }
 
 async function sendEmail(matches: Match[]): Promise<boolean> {
-  const response = await fetch("https://api.resend.com/emails", {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${process.env.RESEND_API_KEY}`,
-      "Content-Type": "application/json",
+  const gmailUser = process.env.GMAIL_USER!;
+  const transporter = nodemailer.createTransport({
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true,
+    auth: {
+      user: gmailUser,
+      pass: process.env.GMAIL_APP_PASSWORD,
     },
-    body: JSON.stringify({
-      from: process.env.ALERT_EMAIL_FROM,
-      to: [process.env.ALERT_EMAIL_TO],
-      subject: `${matches.length} new frontend job match${matches.length === 1 ? "" : "es"}`,
-      text: textDigest(matches),
-      html: htmlDigest(matches),
-    }),
-    signal: AbortSignal.timeout(20_000),
   });
-  if (!response.ok) throw new Error(`Email notification failed with HTTP ${response.status}`);
+
+  await transporter.sendMail({
+    from: `ApplyOS Job Radar <${gmailUser}>`,
+    to: process.env.ALERT_EMAIL_TO || gmailUser,
+    subject: `${matches.length} new frontend job match${matches.length === 1 ? "" : "es"}`,
+    text: textDigest(matches),
+    html: htmlDigest(matches),
+  });
   return true;
 }
 

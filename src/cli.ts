@@ -74,7 +74,6 @@ async function main() {
   );
 
   const state = await loadSeenState();
-  const wasInitialized = state.initializedAt !== null;
   const currentMatches = results
     .flatMap((result) => result.jobs)
     .map((job) => matchJob(job))
@@ -82,7 +81,7 @@ async function main() {
   const matches = applySeenState(currentMatches, state, scannedAt).sort(
     (a, b) => Number(b.isNew) - Number(a.isNew) || b.score - a.score,
   );
-  const newMatches = matches.filter((match) => match.isNew || (!wasInitialized && notifyExisting));
+  const newMatches = matches.filter((match) => match.isNew || notifyExisting);
   const notifications = notificationConfig();
 
   if (shouldNotify && newMatches.length) {

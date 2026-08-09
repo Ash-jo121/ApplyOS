@@ -42,11 +42,13 @@ npm run scan:notify
 
 Configure these as GitHub Actions repository secrets. Scanning and the dashboard continue to work if notification secrets are absent.
 
-### Email via Resend
+### Email via Gmail
 
-- `RESEND_API_KEY`
-- `ALERT_EMAIL_FROM` — a sender on a verified Resend domain
-- `ALERT_EMAIL_TO`
+- `GMAIL_USER` — the Gmail address that sends the alerts
+- `GMAIL_APP_PASSWORD` — a Google App Password, not the account password
+- `ALERT_EMAIL_TO` — optional; defaults to `GMAIL_USER`
+
+Enable 2-Step Verification on the Google account, create an App Password, and save the generated 16-character password without spaces. Gmail SMTP does not require a custom domain.
 
 ### WhatsApp via Meta Cloud API
 
