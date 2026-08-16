@@ -1,7 +1,30 @@
 {
-  "generatedAt": "2026-08-15T18:50:39.409Z",
+  "generatedAt": "2026-08-16T02:00:16.241Z",
   "scheduleHours": 6,
   "matches": [
+    {
+      "id": "jpmc:210771851",
+      "companyId": "jpmc",
+      "company": "JPMorgan Chase",
+      "source": "oracle",
+      "title": "Software Engineer III-Java Full Stack",
+      "location": "Bengaluru, Karnataka, India",
+      "description": "We have an exciting and rewarding opportunity for you to take your software engineering career to the next level. As a Software Engineer III at JPMorgan Chase within the Commercial & Investment Bank Payments Technology team, you will be an experienced member of an agile team, tasked with designing and delivering reliable, market-leading technology products that are secure, stable, and scalable. Job responsibilities Executes software solutions, design, development, and technical troubleshooting with ability to think beyond routine or conventional approaches to build solutions or break down technical problems Creates secure and high-quality production code and maintains algorithms that run synchronously with appropriate systems Produces architecture and design artifacts for complex applications while being accountable for ensuring design constraints are met by software code development Gathers, analyzes, synthesizes, and develops visualizations and reporting from large, diverse data sets in service of continuous improvement of software applications and systems Proactively identifies hidden problems and patterns in data and uses these insights to drive improvements to coding hygiene and system architecture Contributes to software engineering communities of practice and events that explore new and emerging technologies Adds to team culture of diversity, opportunity, inclusion, and respect Leverages enterprise-authorized AI coding assist tools within the work environment to improve code quality, delivery speed, and productivity across complex deliverables (e.g., code generation/refactoring, unit test creation, documentation), while validating outputs through peer review, automated testing, and secure coding standards; contributes learnings and reusable patterns to improve broader team effectiveness Applies knowledge of tools within the Software Development Life Cycle toolchain, including enterprise-authorized AI-assisted development and automation capabilities, to improve the value realized by automation Required qualifications, capabilities, and skills Formal training or certification on software engineering concepts and 3+ years applied experience Hands-on practical experience in system design, application development, testing, and operational stability Proficient in coding in Java EE - Full Stack, Spring boot, SOLID Design Principles Should have experience in Messaging Channel: MQ/Kafka, Databases : Oracle/Cassandra/NoSQL - MongoDB Should have experience in Dockerization : Containerization concepts, Kunernetes, Testing frameworks - Junit/Mockito/Cucumber/Playwright Proficient in coding in one or more languages Good Understanding on AI models & usage of pair programming coding assistants like CoPilot Overall knowledge of the Software Development Life Cycle Hands-on experience using enterprise-authorized AI-assisted software development tools within the work environment (e.g., for coding, test creation, troubleshooting, or documentation) with demonstrated ability to critically evaluate, validate, and refine AI-generated outputs for correctness, performance, and security Understanding of responsible AI use in engineering workflows, including data sensitivity considerations, secure handling of inputs/outputs, and adherence to resiliency and security expectations; ability to guide peers on safe and effective usage within team practices Preferred qualifications, capabilities, and skills Familiarity with modern front-end technologies Exposure to cloud technologies Cloud Technologies - AWS offerings, Cloud agnositic app development & deployments Front End - React / JavaScript Design and deliver market-leading technology products in a secure and scalable way as a seasoned member of an agile team",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210771851",
+      "postedAt": "2026-08-15T21:14:31+00:00",
+      "scrapedAt": "2026-08-16T02:00:35.582Z",
+      "score": 56,
+      "reasons": [
+        "full-stack title",
+        "skills: react, javascript, performance"
+      ],
+      "experience": {
+        "min": null,
+        "max": null
+      },
+      "firstSeenAt": "2026-08-16T02:00:16.241Z",
+      "isNew": true
+    },
     {
       "id": "cred:58dfc330-090b-4318-a395-cc7280cf5065",
       "companyId": "cred",
@@ -12,7 +35,7 @@
       "description": "Prefr (a brand under Dreamplug Technologies Pvt. Ltd. / CRED) is a tech-first fintech platform reshaping how India’s digital-first generation experiences credit. We currently offer instant personal loans from ₹50,000 to ₹5,00,000 through a seamless, end-to-end digital journey — serving India’s creditworthy yet underserved segments, in partnership with RBI-approved top-tier financial institutions. Our mission to become the largest platform for delivering fast, transparent, and trusted credit for the millions -by bringing together distribution depth, AI-driven intelligence & multi-lender access.\n what will you do? build and ship high-performance, consumer-facing web applications from concept to production own the end-to-end frontend development lifecycle, including architecture, implementation, testing, deployment, and production support design scalable, reusable, and maintainable frontend systems that support rapid business growth collaborate closely with Product, Design, Backend, and Mobile teams to create seamless customer experiences translate business requirements and designs into elegant, production-ready user interfaces continuously improve application performance, accessibility, scalability, and developer experience establish and drive frontend engineering best practices, coding standards, design patterns, and testing strategies build internal tools, dashboards, and productivity solutions that improve engineering efficiency and operational visibility leverage AI tools to automate workflows, accelerate development, improve code quality, and enhance productivity experiment with emerging technologies and contribute innovative solutions that create business impact you should apply if you are: have 3+ years of experience building scalable, consumer-facing web applications strong in JavaScript and TypeScript experienced with Vue.js, Nuxt.js, Vue Router, and state management solutions such as Pinia or Vuex comfortable working with modern frontend frameworks and ecosystems, including Vue and React well-versed in HTML, CSS, responsive design, and component-driven development experienced with modern styling solutions such as Tailwind CSS, CSS Modules, Styled Components, or similar tools familiar with frontend architecture, design patterns, state management, and reusable component design understand rendering strategies (CSR, SSR, SSG), browser internals, caching mechanisms, and performance optimization techniques have experience with Node.js and modern build tools such as Vite or Webpack write reliable automated tests using tools like Vitest or Jest understand API integrations, authentication, and modern web security practices passionate about writing clean, maintainable, and well-tested code able to convert pixel-perfect designs into polished user experiences continuously stay updated with evolving web technologies and industry trends demonstrate strong ownership, bias for action, and a product-first mindset actively use AI tools to improve development workflows, code quality, testing, and delivery speed enjoy solving complex engineering challenges in a fast-paced, high-growth environment",
       "url": "https://jobs.lever.co/cred/58dfc330-090b-4318-a395-cc7280cf5065",
       "postedAt": "2026-07-21T09:44:43.207Z",
-      "scrapedAt": "2026-08-15T18:50:39.594Z",
+      "scrapedAt": "2026-08-16T02:00:16.815Z",
       "score": 97,
       "reasons": [
         "web engineering title",
@@ -36,7 +59,7 @@
       "description": "Software Development Engineer II (Frontend Web) - Creator Bengaluru Software Engineering – Front-end Engineering / Full Time / On-site Job Summary: As a Software Development Engineer II, you’ll build a world-class platform for our customers by solving complex technical problems and building systems which run at scale. You will play a critical role in developing code and solve problems independently while shaping our next-gen solutions that drive our company's mission forward. We seek candidates with a passion for crafting elegant code and building innovative software solutions About the team: We’re an agile, fast-moving team, focused on turning bold ideas into impactful products. From rapid prototyping of new concepts to building scalable platforms that power future growth, we thrive on experimentation and innovation. Our platform highlights creators and their narratives by giving them AI-powered systems using advanced machine learning and multimedia pipelines. As part of this team, you’ll work at the intersection of creativity and technology — building end-to-end experiences, experimenting with emerging tech, and shaping the future of entertainment content. Key responsibilities: Own and deliver end-to-end features, ensuring high performance, accessibility, and cross-browser compatibility Collaborate with stakeholders of the product to deliver new user-facing features on the website/app You will ensure the technical feasibility of UI/UX designs and implement them You will build reusable code and cross-functional libraries in contributing to our extensive in-house Design system Document and demonstrate solutions by creating documentation, DFDs, code comments Write clean, efficient, and maintainable code using best practices and participate in code reviews Skills and attributes for success: Strong experience in JavaScript language, especially React Deep knowledge about how browsers work Deep understanding about design & architecture patterns Highly enthusiastic and enjoy learning new technologies and frameworks You know why a framework is necessary and know any of React, AngularJS etc. Open-source contribution is good to have Proficient understanding of code versioning tools Git Familiarity with front-end build tools, such as Grunt or Gulp Preferred education and experience: Bachelors/master's in computer science or a related field with 2-4 years of professional experience as a frontend developer with hands-on experience on JavaScript. About Us Perched firmly at the nucleus of spellbinding content and innovative technology, JioStar is a leading global media & entertainment company that is reimagining the way audiences consume entertainment and sports. Its television network and streaming service together reach more than 750 million viewers every week, igniting the dreams and aspirations of hundreds of million people across geographies. JioStar is an equal opportunity employer. The company values diversity and its mission is to create a workplace where everyone can bring their authentic selves to work. The company ensures that the work environment is free from any discrimination against persons with disabilities, gender, gender identity and any other characteristics or status that is legally protected.",
       "url": "https://jiostar.wd102.myworkdayjobs.com/en-US/JioStar/job/Bengaluru--We-Work/Software-Development-Engineer-II_JR12123",
       "postedAt": "2026-07-24",
-      "scrapedAt": "2026-08-15T18:50:46.198Z",
+      "scrapedAt": "2026-08-16T02:00:27.622Z",
       "score": 70,
       "reasons": [
         "software engineering title",
@@ -60,7 +83,7 @@
       "description": "Job Summary: As a Software Development Engineer II, you’ll build a world-class content viewing experience for our customers by solving complex technical problems and building systems which run at an enormous scale. The role is expected to design and deliver high-quality distributed applications and also keep an extremely high operational excellence bar to provide a seamless experience to our customers on the JioHotstar website and TV applications. About the team: At JioHotstar, the Viewer Experience (VX) org is at the heart of how millions discover, engage with, and fall in love with our platform. We own the end-to-end user journey—from first app launch to daily habit loops—across Search, Personalization, Watch Experience, Interactivity, and more. We blend world-class engineering, ML, design, and data to deliver a seamless, personalized, and engaging OTT experience at massive scale. If you're passionate about building immersive, intelligent, and performant user experiences that delight a billion users, join us in shaping the future of streaming. Key responsibilities: Own and deliver end-to-end features, ensuring high performance, accessibility, and cross-browser compatibility Collaborate with stakeholders of the product to deliver new user-facing features on the website/TV app You will ensure the technical feasibility of UI/UX designs and implement them You will build reusable code and cross-functional libraries in contributing to our extensive in-house Design system Document and demonstrate solutions by creating documentation, DFDs, code comments Write clean, efficient, and maintainable code using best practices and participate in code reviews Skills and attributes for success: Strong experience in JavaScript Deep knowledge about how browsers work Deep understanding about design & architecture patterns Highly enthusiastic and enjoy learning new technologies and frameworks You know why a framework is necessary and know any of React, AngularJS etc Open source contribution is good to have Proficient understanding of code versioning tools Git Familiarity with front-end build tools, such as Grunt or Gulp Preferred education and experience: Bachelors/Masters in Computer Science or a related field with 2-4 years of professional experience as a frontend developer with hands-on experience on Javascript.",
       "url": "https://jiostar.wd102.myworkdayjobs.com/en-US/JioStar/job/Bengaluru/Software-Development-Engineer-II--Web----VX_JR10213",
       "postedAt": "2026-06-01",
-      "scrapedAt": "2026-08-15T18:50:46.588Z",
+      "scrapedAt": "2026-08-16T02:00:27.731Z",
       "score": 70,
       "reasons": [
         "software engineering title",
@@ -84,7 +107,7 @@
       "description": "Job Summary: As a Software Development Engineer II, you’ll build a world-class platform for our customers by solving complex technical problems and building systems that run at scale. You will play a critical role in developing code and solving problems independently while shaping our next-gen solutions that drive our company's mission forward. We seek candidates with a passion for crafting elegant code and building innovative software solutions. Key responsibilities: Architecture & Design: Lead the design of complex front-end systems using modern frameworks (React.js, Next.js, and Typescript preferred) and state management libraries. Performance Engineering: Optimize web applications for maximum speed, scalability, and Core Web Vitals. Optimize startup time, rebuffering, memory usage, and rendering performance,PFR, startup time, errors, and engagement. Cross Browser: Ensure a seamless experience across desktop browsers, mobile web, and Smart TV web platforms (Tizen, webOS). Mentorship: Conduct rigorous code reviews and mentor junior/mid-level engineers on best practices and design patterns. Collaboration: Partner with Product Managers and UX Designers to translate wireframes into high-quality, reusable components. Streaming: Integrate player UI with video playback engines (HTML5, MSE, EME). Analytics & QoS: Design and integrate analytics and observability frameworks to track key metrics such as startup time, buffering ratio, rebuffer frequency, bitrate switches/drops, playback failures, and user engagement, enabling data-driven performance optimization and rollout decisions. Triaging Production issues: Ability to debug and resolve production issues under pressure, demonstrating a strong ownership mindset with a bias for performance and reliability, and delivering timely fixes that minimize customer impact. Security Compliance: Strong understanding of web security best practices, including XSS prevention, CSP, CORS, secure media playback, and DRM-related attack vectors. Skills and attributes for success: 2-4 years of professional experience in modern web development. Expert-level knowledge of TypeScript, React/Next.js, and CSS-in-JS (styled-components/Tailwind). Deep hands-on experience with HTML5 video players and SDKs such as Shaka Player, HLS.js, Video.js, and Dash.js, including customization of UI, buffering logic, error handling, and ABR behavior. Protocols: Expert knowledge of HLS and MPEG-DASH, including manifest structure, segmenting, DRM, and adaptive bitrate. Hands-on experience with modern build systems (Webpack, Vite, Rollup), CI/CD pipelines, and automated testing (Jest, React Testing Library, Playwright), ensuring high-quality A/B experiments and production-ready releases. Preferred education and experience: Bachelor’s or Master’s degree in Computer Science or a related field. 2-4 years of Web development experience.",
       "url": "https://jiostar.wd102.myworkdayjobs.com/en-US/JioStar/job/Bengaluru/Software-Development-Engineer-II---Web_JR10487",
       "postedAt": "2026-06-01",
-      "scrapedAt": "2026-08-15T18:50:46.987Z",
+      "scrapedAt": "2026-08-16T02:00:28.116Z",
       "score": 67,
       "reasons": [
         "software engineering title",
@@ -108,7 +131,7 @@
       "description": "Job Summary: As a Software Development Engineer II, you’ll build a world-class platform for our customers by solving complex technical problems and building systems that run at scale. You will play a critical role in developing code and solving problems independently while shaping our next-gen solutions that drive our company's mission forward. We seek candidates with a passion for crafting elegant code and building innovative software solutions. Key responsibilities: Architecture & Design: Lead the design of complex front-end systems using modern frameworks (React.js, Next.js, and Typescript preferred) and state management libraries. Performance Engineering: Optimize web applications for maximum speed, scalability, and Core Web Vitals. Optimize startup time, rebuffering, memory usage, and rendering performance,PFR, startup time, errors, and engagement. Cross Browser: Ensure a seamless experience across desktop browsers, mobile web, and Smart TV web platforms (Tizen, webOS). Mentorship: Conduct rigorous code reviews and mentor junior/mid-level engineers on best practices and design patterns. Collaboration: Partner with Product Managers and UX Designers to translate wireframes into high-quality, reusable components. Streaming: Integrate player UI with video playback engines (HTML5, MSE, EME). Analytics & QoS: Design and integrate analytics and observability frameworks to track key metrics such as startup time, buffering ratio, rebuffer frequency, bitrate switches/drops, playback failures, and user engagement, enabling data-driven performance optimization and rollout decisions. Triaging Production issues: Ability to debug and resolve production issues under pressure, demonstrating a strong ownership mindset with a bias for performance and reliability, and delivering timely fixes that minimize customer impact. Security Compliance: Strong understanding of web security best practices, including XSS prevention, CSP, CORS, secure media playback, and DRM-related attack vectors. Skills and attributes for success: 2-4 years of professional experience in modern web development. Expert-level knowledge of TypeScript, React/Next.js, and CSS-in-JS (styled-components/Tailwind). Deep hands-on experience with HTML5 video players and SDKs such as Shaka Player, HLS.js, Video.js, and Dash.js, including customization of UI, buffering logic, error handling, and ABR behavior. Protocols: Expert knowledge of HLS and MPEG-DASH, including manifest structure, segmenting, DRM, and adaptive bitrate. Hands-on experience with modern build systems (Webpack, Vite, Rollup), CI/CD pipelines, and automated testing (Jest, React Testing Library, Playwright), ensuring high-quality A/B experiments and production-ready releases. Preferred education and experience: Bachelor’s or Master’s degree in Computer Science or a related field. 2-4 years of Web development experience. About Us Perched firmly at the nucleus of spellbinding content and innovative technology, JioStar is a leading global media & entertainment company that is reimagining the way audiences consume entertainment and sports. Its television network and streaming service together reach more than 750 million viewers every week, igniting the dreams and aspirations of hundreds of million people across geographies. JioStar India Private Limited (formerly known as Star India Private Limited) is an equal opportunity employer. The company values diversity and its mission is to create a workplace where everyone can bring their authentic selves to work. The company ensures that the work environment is free from any discrimination against persons with disabilities, gender, gender identity and any other characteristics or status that is legally protected.",
       "url": "https://jiostar.wd102.myworkdayjobs.com/en-US/JioStar/job/Bengaluru/Software-Development-Engineer-II---Web_JR10301",
       "postedAt": "2026-07-27",
-      "scrapedAt": "2026-08-15T18:50:46.999Z",
+      "scrapedAt": "2026-08-16T02:00:28.141Z",
       "score": 67,
       "reasons": [
         "software engineering title",
@@ -132,7 +155,7 @@
       "description": "Job Summary: As a Senior Software Development Engineer, you will be responsible for bridging the gap between high-level business goals and hands-on execution. You will build scalable systems, define architectural blueprints, and actively mentor engineering teams across both front-end and back-end ecosystems. About the team: At JioHotstar, GenAI studios is an AI native, agile & fast-moving team focused on turning bold ideas into impactful features for professional film making products. From rapid prototyping of new concepts to building scalable platforms that power future growth, we thrive on experimentation and innovation. Our platform highlights creators and their narratives by giving them AI-powered systems using advanced machine learning and multimedia pipelines. As part of this team, you’ll work at the intersection of creativity and technology — building end-to-end experiences, experimenting with emerging tech, and shaping the future of entertainment content. Reporting To: Engineering Manager Key responsibilities: ● Design and build scalable, resilient microservices ● Own end-to-end delivery of complex fullstack projects, from technical design to deployment and monitoring ● Write high-quality, maintainable code, and ensure rigorous testing and fault tolerance ● Drive architectural decisions and influence long-term engineering strategy for the team ● Collaborate closely with Product Managers, Data Scientists, and cross-functional teams to translate business needs into tech solutions ● Take ownership of operational excellence, including performance tuning, incident response, and root cause analysis ● Mentor junior engineers, conduct technical deep dives and code reviews, and foster a culture of knowledge sharing Skills and attributes for success: ● 4 -7 years of hands-on fullstack software development experience. ● Front-End Technologies: Expertise in modern JavaScript/TypeScript and frameworks like React.js, or Next.js. ● Back-End Technologies: Strong proficiency in server-side technology - Python, experience with Golang is an added advantage. ● Hands-on experience with relational/non-relational databases (e.g., PostgreSQL, MongoDB) and cloud platforms (AWS or GCP). ● Tools & Practices: Deep understanding of Agile methodologies, DevOps practices, AI-assisted coding tools, and API design (REST) ● Exceptional leadership, communication, and presentation skills. ● Strong capability in prioritizing tasks and navigating ambiguous, fast-paced environments. Preferred education and experience: Bachelors/Masters in Computer Science or a related field with 4 - 7 years of experience in fullstack software development. About Us: Perched firmly at the nucleus of spellbinding content and innovative technology, JioStar is a leading global media & entertainment company that is reimagining the way audiences consume entertainment and sports. Its television network and streaming service together reach more than 750 million viewers every week, igniting the dreams and aspirations of hundreds of million people across geographies.",
       "url": "https://jiostar.wd102.myworkdayjobs.com/en-US/JioStar/job/Bengaluru--We-Work/Senior-Software-Development-Engineer_JR12220",
       "postedAt": "2026-08-05",
-      "scrapedAt": "2026-08-15T18:50:46.593Z",
+      "scrapedAt": "2026-08-16T02:00:28.020Z",
       "score": 63,
       "reasons": [
         "software engineering title",
@@ -156,7 +179,7 @@
       "description": "ResponsibilitiesTSI/GIS- Technology Strategy & Innovation- GTS Information Systeam responsible for maintaining and supporting the applicaitons of infrasture Domain under GTS.Profile requiredProfile RequiredExp – 4-9 YearsTechnical Skills• Should have Prior experience in Python, Rest Services, react.js, PHP, SQL, PL/SQL• Should have Cloud, Kubernetes working experience.• Should have hands on working experience in Application development..• Should have good analytical and problem-solving skills.• Should had experience in understanding Data Specially Infrastructure Domain related and provide business insight to bring more Utilization of Asses Referential for organization.• Should be able to do complex design and high-performance architecture.• Ability to evaluate technical approaches and discuss pros and cons of each to arrive at a design.• Should have strong concepts on building Security around the entire Datawarehouse.• Should have Good Functional Knowledge in the areas of Infrastructure Domain Preferably Servers/Storage/Network etc, ITIL.• Aware of the standard Change management and Project management processes.• This role will focus on Support, Enhancements and new Projects.Key Responsibilities:• Drive Assets Referential Functional Strategy (Marley), solution definition and execution for client needs.• Responsible for project planning, work product quality, project execution and project reviews.• Thrive to become a subject matter expert on internal Group Asset Referential System (Marley).• Become an advocate for Marley Asset and CI’s along with their usage and support user enablement and adoption.• Develop in-depth business requirements for large projects -across a variety of business functions in all size projects.• Work with all related business and support unit stakeholders, including the product owner and technical leader , to analyze and challenge the business requirements, leading to functional discussions and specifications, precise usage and detailed user stories.• Demonstrate expertise on business processes, life-cycles, and data drivers.• Drive testing activities on new solutions introduced into production.• Drive input to Marley development team on requirements and enhancements to existing data sets and reporting technologies.• Collaborate on the definition of KPIs and metrics to monitor and run the business.• Plan and execute communication, training, and documentation to enable successful user adoption.• Drive proof-of-concepts, tool evaluations, and data quality activities.• Guide and mentor other Business Analysts in the team.• Demonstrate innovation & thought leadership toward enhancing business value, process improvements and customer impact.• Participate in design discussions and be able to implement any design decisions.• Participate high –level Architecture designs for the Assets Referential Strategy (Marley).• Understanding of Infrastructure Domain/ITIL to provide more business site of Reporting utilization's• Excellent upstream and downstream communication skills, ability to communicate complex ideas verbally and through documentation.Must have:- Experience working in Agile Team.- Analyzing new requirements, designing and implementing technical solutions.- Strong Communication skills – should be able to articulate and present project demos to leadership teams.- Excellent writing and presentation skills.- Capable of quickly learning & implementing new tools/technologies.- Strong technical ability to research and independently drive technical POC’s.Good to have:- French speaking/understanding- Experience with databases such as Oracle, Postgres, MySQL.Why join us“We are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status”.Business insightAt Société Générale, we are convinced that people are drivers of change, and that the world of tomorrow will be shaped by all their initiatives, from the smallest to the most ambitious.Whether you’re joining us for a period of months, years or your entire career, together we can have a positive impact on the future. Creating, daring, innovating and taking action are part of our DNA.If you too want to be directly involved, grow in a stimulating and caring environment, feel useful on a daily basis and develop or strengthen your expertise, you will feel right at home with us!Still hesitating?You should know that our employees can dedicate several days per year to solidarity actions during their working hours, including sponsoring people struggling with their orientation or professional integration, participating in the financial education of young apprentices and sharing their skills with charities. There are many ways to get involved.",
       "url": "https://careers.societegenerale.com/en/job-offers/software-engineer-full-stack-2600068T-en",
       "postedAt": "2026/04/08",
-      "scrapedAt": "2026-08-15T18:50:52.517Z",
+      "scrapedAt": "2026-08-16T02:00:34.204Z",
       "score": 63,
       "reasons": [
         "full-stack title",
@@ -180,7 +203,7 @@
       "description": "ResponsibilitiesTSI/GIS- Technology Strategy & Innovation- GTS Information Systeam responsible for maintaining and supporting the applicaitons of infrasture Domain under GTS.Profile requiredProfile RequiredExp – 4-9 YearsTechnical Skills• Should have Prior experience in Python, Rest Services, react.js, PHP, SQL, PL/SQL• Should have Cloud, Kubernetes working experience.• Should have hands on working experience in Application development..• Should have good analytical and problem-solving skills.• Should had experience in understanding Data Specially Infrastructure Domain related and provide business insight to bring more Utilization of Asses Referential for organization.• Should be able to do complex design and high-performance architecture.• Ability to evaluate technical approaches and discuss pros and cons of each to arrive at a design.• Should have strong concepts on building Security around the entire Datawarehouse.• Should have Good Functional Knowledge in the areas of Infrastructure Domain Preferably Servers/Storage/Network etc, ITIL.• Aware of the standard Change management and Project management processes.• This role will focus on Support, Enhancements and new Projects.Key Responsibilities:• Drive Assets Referential Functional Strategy (Marley), solution definition and execution for client needs.• Responsible for project planning, work product quality, project execution and project reviews.• Thrive to become a subject matter expert on internal Group Asset Referential System (Marley).• Become an advocate for Marley Asset and CI’s along with their usage and support user enablement and adoption.• Develop in-depth business requirements for large projects -across a variety of business functions in all size projects.• Work with all related business and support unit stakeholders, including the product owner and technical leader , to analyze and challenge the business requirements, leading to functional discussions and specifications, precise usage and detailed user stories.• Demonstrate expertise on business processes, life-cycles, and data drivers.• Drive testing activities on new solutions introduced into production.• Drive input to Marley development team on requirements and enhancements to existing data sets and reporting technologies.• Collaborate on the definition of KPIs and metrics to monitor and run the business.• Plan and execute communication, training, and documentation to enable successful user adoption.• Drive proof-of-concepts, tool evaluations, and data quality activities.• Guide and mentor other Business Analysts in the team.• Demonstrate innovation & thought leadership toward enhancing business value, process improvements and customer impact.• Participate in design discussions and be able to implement any design decisions.• Participate high –level Architecture designs for the Assets Referential Strategy (Marley).• Understanding of Infrastructure Domain/ITIL to provide more business site of Reporting utilization's• Excellent upstream and downstream communication skills, ability to communicate complex ideas verbally and through documentation.Must have:- Experience working in Agile Team.- Analyzing new requirements, designing and implementing technical solutions.- Strong Communication skills – should be able to articulate and present project demos to leadership teams.- Excellent writing and presentation skills.- Capable of quickly learning & implementing new tools/technologies.- Strong technical ability to research and independently drive technical POC’s.Good to have:- French speaking/understanding- Experience with databases such as Oracle, Postgres, MySQL.Why join us“We are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status”.Business insightAt Société Générale, we are convinced that people are drivers of change, and that the world of tomorrow will be shaped by all their initiatives, from the smallest to the most ambitious.Whether you’re joining us for a period of months, years or your entire career, together we can have a positive impact on the future. Creating, daring, innovating and taking action are part of our DNA.If you too want to be directly involved, grow in a stimulating and caring environment, feel useful on a daily basis and develop or strengthen your expertise, you will feel right at home with us!Still hesitating?You should know that our employees can dedicate several days per year to solidarity actions during their working hours, including sponsoring people struggling with their orientation or professional integration, participating in the financial education of young apprentices and sharing their skills with charities. There are many ways to get involved.",
       "url": "https://careers.societegenerale.com/en/job-offers/software-engineer-full-stack-260007U0-en",
       "postedAt": "2026/04/08",
-      "scrapedAt": "2026-08-15T18:50:52.588Z",
+      "scrapedAt": "2026-08-16T02:00:34.256Z",
       "score": 63,
       "reasons": [
         "full-stack title",
@@ -204,7 +227,7 @@
       "description": "ResponsibilitiesResponsible for development of new highly responsive, web-based user interfaceWork as an Individual Contributor and code/develop end-to-end features (UI/UX, APIs, Database)Be innovative towards any problem and identify and challenge existing inefficient practicesBe collaborative and work as a good team player with all team members. Have a positive mindset and open thoughts.Work with product team and graphic designersBe proactive towards raising any alerts, issues or risksDevelop a flexible and well-structured front-end architecture, along with the APIs to support it.Responsible to write API based on the requirements.Profile Required: ACE can help you write this job description (go/ACE)Profile requiredCandidate should have 3+ years of experience in IT and strong knowledge with hands on following skills Strong in Java, Spring boot, TypeScript, React, Angular, HTML & CSS, JUnit, GitHub, Docker, JenkinsStrong in writing unit and E2E test cases in React and JavaMust have knowledge in Design Patterns, SOLID Principles, and should be able to code using standard industry coding practices.Must be able to work as an independent contributorGood to have hands-on over MS-Playwright or Cypress & Co-pilot or other AI tools.Why join us\"We are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status”.Business insightAt Société Générale, we are convinced that people are drivers of change, and that the world of tomorrow will be shaped by all their initiatives, from the smallest to the most ambitious. Whether you’re joining us for a period of months, years or your entire career, together we can have a positive impact on the future. Creating, daring, innovating, and taking action are part of our DNA. If you too want to be directly involved, grow in a stimulating and caring environment, feel useful on a daily basis and develop or strengthen your expertise, you will feel right at home with us!Still hesitating? You should know that our employees can dedicate several days per year to solidarity actions during their working hours, including sponsoring people struggling with their orientation or professional integration, participating in the financial education of young apprentices, and sharing their skills with charities. There are many ways to get involved.We are committed to support accelerating our Group’s ESG strategy by implementing ESG principles in all our activities and policies. They are translated in our business activity (ESG assessment, reporting, project management or IT activities), our work environment and in our responsible practices for environment protection.",
       "url": "https://careers.societegenerale.com/en/job-offers/software-engineer-java-fsd-26000CFS-en",
       "postedAt": "2026/08/10",
-      "scrapedAt": "2026-08-15T18:50:49.313Z",
+      "scrapedAt": "2026-08-16T02:00:31.090Z",
       "score": 59,
       "reasons": [
         "software engineering title",
@@ -228,7 +251,7 @@
       "description": "ResponsibilitiesMinimum 5 Years Of Full Stack Development Experience.Role DescriptionQualifiersIndependently design components, develop code and test case scenarios by applying relevant software craftsmanship principles and meet the acceptance criteria.Complete the assigned learning path. Take part in team ceremonies be it agile practices or chapter meetings.Deliver on all aspects of Software Development Lifecyle (SDLC) in-line with Agile and IT craftsmanship principles.Deliver high-quality clean code and design that can be re-used.Actively, work with other development teams to define and implement API's and rules for data access.Ensure customers, stakeholders and partners are rightly communicated on time.Assess production improvement areas such as recurrent issues.Perform daily checks and maintain required standards and production processes.Provide suggestions for automating the repetitive and regular production activities.Perform bug-free release validations and produce metrices, tests and defect reports.Assist in developing guidelines and ensuring that team practices them.Ability to perform level 2/level 3 production supportIncrease coverage of data models, data dictionary, data pipeline standards, storage of source, process and consumer metadata (#reuse and #extend).Octoflow MissionDesign, develop, and maintain data pipelinesCollect, transform, and integrate data from various sources (APIs, files, tables, etc.)Optimize processing performance and storageAdd features around Octoflow data – ScalaWork closely with Full Stack developers to meet business needsParticipate in business meetings to challenge the addition of new featuresTake part in follow-up rituals (weekly committees, technical meetings, progress reporting)Profile requiredBackend: Java 21, Spring Boot, REST APIs, JWT/RTFE security, permissions management (SGIAM, SG Sign-In, etc.)Frontend: ReactJS, TypeScript, React Context, SG Design System integrationData & Cloud: PostgreSQL, CI/CD (Git, automated pipelines)Testing & Quality: JUnit, Jest/RTL, continuous integration, code coverageArchitecture: Knowledge of hexagonal patterns, microservicesMethodology: Agile, backlog management, collaborative workWhy join usWe are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status.Business insightAt Société Générale, we are convinced that people are drivers of change, and that the world of tomorrow will be shaped by all their initiatives, from the smallest to the most ambitious. Whether you’re joining us for a period of months, years or your entire career, together we can have a positive impact on the future. Creating, daring, innovating, and taking action are part of our DNA. If you too want to be directly involved, grow in a stimulating and caring environment, feel useful on a daily basis and develop or strengthen your expertise, you will feel right at home with us!Still hesitating? You should know that our employees can dedicate several days per year to solidarity actions during their working hours, including sponsoring people struggling with their orientation or professional integration, participating in the financial education of young apprentices, and sharing their skills with charities. There are many ways to get involved.We are committed to support accelerating our Group’s ESG strategy by implementing ESG principles in all our activities and policies. They are translated in our business activity (ESG assessment, reporting, project management or IT activities), our work environment and in our responsible practices for environment protection.",
       "url": "https://careers.societegenerale.com/en/job-offers/specialist-software-engineer-260007XE-en",
       "postedAt": "2026/06/18",
-      "scrapedAt": "2026-08-15T18:50:51.436Z",
+      "scrapedAt": "2026-08-16T02:00:32.930Z",
       "score": 59,
       "reasons": [
         "software engineering title",
@@ -251,7 +274,7 @@
       "description": "Job Summary: As a Senior Software Engineer, you’ll build a world-class platform for our customers by solving complex technical problems and building systems that run at scale. You will play a critical role in developing code and solving problems independently while shaping our next-gen solutions that drive our company's mission forward. We seek candidates with a passion for crafting elegant code and building innovative software solutions. About the team: Join our Player team to build and optimize world-class video playback experiences for millions of users on Desktop browsers, Smart TVs (like webOS, Tizen, and VIDAA), Mobile browsers etc. If you’re passionate about streaming technology and delivering smooth, high-quality playback, join us! Key responsibilities: Architecture & Design: Lead the design of complex front-end systems using modern frameworks (React.js, Next.js, and Typescript preferred) and state management libraries. Performance Engineering: Optimize web applications for maximum speed, scalability, and Core Web Vitals. Optimize startup time, rebuffering, memory usage, and rendering performance,PFR, startup time, errors, and engagement. Cross Browser: Ensure a seamless experience across desktop browsers, mobile web, and Smart TV web platforms (Tizen, webOS). Mentorship: Conduct rigorous code reviews and mentor junior/mid-level engineers on best practices and design patterns. Collaboration: Partner with Product Managers and UX Designers to translate wireframes into high-quality, reusable components. Streaming: Integrate player UI with video playback engines (HTML5, MSE, EME). Analytics & QoS: Design and integrate analytics and observability frameworks to track key metrics such as startup time, buffering ratio, rebuffer frequency, bitrate switches/drops, playback failures, and user engagement, enabling data-driven performance optimization and rollout decisions. Triaging Production issues: Ability to debug and resolve production issues under pressure, demonstrating a strong ownership mindset with a bias for performance and reliability, and delivering timely fixes that minimize customer impact. Security Compliance: Strong understanding of web security best practices, including XSS prevention, CSP, CORS, secure media playback, and DRM-related attack vectors. Skills and attributes for success: 4&#43; years of professional experience in modern web development. Expert-level knowledge of TypeScript, React/Next.js, and CSS-in-JS (styled-components/Tailwind). Deep hands-on experience with HTML5 video players and SDKs such as Shaka Player, HLS.js, Video.js, and Dash.js, including customization of UI, buffering logic, error handling, and ABR behavior. Protocols: Expert knowledge of HLS and MPEG-DASH, including manifest structure, segmenting, DRM, and adaptive bitrate. Hands-on experience with modern build systems (Webpack, Vite, Rollup), CI/CD pipelines, and automated testing (Jest, React Testing Library, Playwright), ensuring high-quality A/B experiments and production-ready releases. Preferred education and experience: Bachelor’s or Master’s degree in Computer Science or a related field. 4&#43; years of Web development experience.",
       "url": "https://jiostar.wd102.myworkdayjobs.com/en-US/JioStar/job/Bengaluru--We-Work/Senior-Software-Development-Engineer_JR11940",
       "postedAt": "2026-06-25",
-      "scrapedAt": "2026-08-15T18:50:46.916Z",
+      "scrapedAt": "2026-08-16T02:00:28.114Z",
       "score": 58,
       "reasons": [
         "software engineering title",
@@ -274,7 +297,7 @@
       "description": "Job Summary: As a Senior Software Engineer, you’ll build a world-class platform for our customers by solving complex technical problems and building systems that run at scale. You will play a critical role in developing code and solving problems independently while shaping our next-gen solutions that drive our company's mission forward. We seek candidates with a passion for crafting elegant code and building innovative software solutions. About the team: Join our Player team to build and optimize world-class video playback experiences for millions of users on Desktop browsers, Smart TVs (like webOS, Tizen, and VIDAA), Mobile browsers etc. If you’re passionate about streaming technology and delivering smooth, high-quality playback, join us! Key responsibilities: Architecture & Design: Lead the design of complex front-end systems using modern frameworks (React.js, Next.js, and Typescript preferred) and state management libraries. Performance Engineering: Optimize web applications for maximum speed, scalability, and Core Web Vitals. Optimize startup time, rebuffering, memory usage, and rendering performance,PFR, startup time, errors, and engagement. Cross Browser: Ensure a seamless experience across desktop browsers, mobile web, and Smart TV web platforms (Tizen, webOS). Mentorship: Conduct rigorous code reviews and mentor junior/mid-level engineers on best practices and design patterns. Collaboration: Partner with Product Managers and UX Designers to translate wireframes into high-quality, reusable components. Streaming: Integrate player UI with video playback engines (HTML5, MSE, EME). Analytics & QoS: Design and integrate analytics and observability frameworks to track key metrics such as startup time, buffering ratio, rebuffer frequency, bitrate switches/drops, playback failures, and user engagement, enabling data-driven performance optimization and rollout decisions. Triaging Production issues: Ability to debug and resolve production issues under pressure, demonstrating a strong ownership mindset with a bias for performance and reliability, and delivering timely fixes that minimize customer impact. Security Compliance: Strong understanding of web security best practices, including XSS prevention, CSP, CORS, secure media playback, and DRM-related attack vectors. Skills and attributes for success: 4&#43; years of professional experience in modern web development. Expert-level knowledge of TypeScript, React/Next.js, and CSS-in-JS (styled-components/Tailwind). Deep hands-on experience with HTML5 video players and SDKs such as Shaka Player, HLS.js, Video.js, and Dash.js, including customization of UI, buffering logic, error handling, and ABR behavior. Protocols: Expert knowledge of HLS and MPEG-DASH, including manifest structure, segmenting, DRM, and adaptive bitrate. Hands-on experience with modern build systems (Webpack, Vite, Rollup), CI/CD pipelines, and automated testing (Jest, React Testing Library, Playwright), ensuring high-quality A/B experiments and production-ready releases. Preferred education and experience: Bachelor’s or Master’s degree in Computer Science or a related field. 4&#43; years of Web development experience. About JioStar Perched at the nucleus of spellbinding content and innovative technology, JioStar is a leading global media & entertainment company that is reimagining the way audiences consume entertainment and sports. Its television network and streaming service together reach more than 750 million viewers every week, igniting the dreams and aspirations of hundreds of million people across geographies. JioStar is an equal opportunity employer. The company values diversity and its mission is to create a workplace where everyone can bring their authentic selves to work. The company ensures that the work environment is free from any discrimination against persons with disabilities, gender, gender identity and any other characteristics or status that is legally protected.",
       "url": "https://jiostar.wd102.myworkdayjobs.com/en-US/JioStar/job/Bengaluru/Senior-Software-Development-Engineer---Web_JR10303",
       "postedAt": "2026-06-01",
-      "scrapedAt": "2026-08-15T18:50:46.999Z",
+      "scrapedAt": "2026-08-16T02:00:28.431Z",
       "score": 58,
       "reasons": [
         "software engineering title",
@@ -297,7 +320,7 @@
       "description": "ResponsibilitiesResponsibilities: ACE can help you write this job description (go/ACE)5+ years of professional frontend development experience.- Strong experience with React and TypeScript.- Good understanding of state‑management libraries.- Strong testing experience (Jest, React Testing Library, Playwright).- Solid Git skills and comfortable with reviewing code thoughtfully.- Ability to debug complex issues across SSR, state, and build layers.- Solid understanding of algorithms, browser fundamentals, and CSS. Profile Required: ACE can help you write this job description (go/ACE)5+ years of professional frontend development experience.- Strong experience with React and TypeScript.- Good understanding of state‑management libraries.- Strong testing experience (Jest, React Testing Library, Playwright).- Solid Git skills and comfortable with reviewing code thoughtfully.- Ability to debug complex issues across SSR, state, and build layers.- Solid understanding of algorithms, browser fundamentals, and CSS. Profile required5+ years of professional frontend development experience.- Strong experience with React and TypeScript.- Good understanding of state‑management libraries.- Strong testing experience (Jest, React Testing Library, Playwright).- Solid Git skills and comfortable with reviewing code thoughtfully.- Ability to debug complex issues across SSR, state, and build layers.- Solid understanding of algorithms, browser fundamentals, and CSS.Why join us“We are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status”.Business insightAt Société Générale, we are convinced that people are drivers of change, and that the world of tomorrow will be shaped by all their initiatives, from the smallest to the most ambitious.Whether you’re joining us for a period of months, years or your entire career, together we can have a positive impact on the future. Creating, daring, innovating and taking action are part of our DNA.If you too want to be directly involved, grow in a stimulating and caring environment, feel useful on a daily basis and develop or strengthen your expertise, you will feel right at home with us!Still hesitating?You should know that our employees can dedicate several days per year to solidarity actions during their working hours, including sponsoring people struggling with their orientation or professional integration, participating in the financial education of young apprentices and sharing their skills with charities. There are many ways to get involved.",
       "url": "https://careers.societegenerale.com/en/job-offers/specialist-software-engineer-java-react-typescript-25000NMI-en",
       "postedAt": "2026/07/22",
-      "scrapedAt": "2026-08-15T18:50:50.779Z",
+      "scrapedAt": "2026-08-16T02:00:32.426Z",
       "score": 57,
       "reasons": [
         "software engineering title",
@@ -321,7 +344,7 @@
       "description": "ResponsibilitiesLevel : Specialist Software EngineerSkill : Java/ReactJS/ITIL knowledge/Production support/Business interactionCategory : RegularIndependently design components, develop code and test case scenarios by applying relevant software craftsmanship principles and meet the acceptance criteria.Complete the assigned learning path. Take part in team ceremonies be it agile practices or chapter meetings.Deliver on all aspects of Software Development Lifecyle (SDLC) in-line with Agile and IT craftsmanship principles.Deliver high-quality clean code and design that can be re-used.Actively, work with other development teams to define and implement API's and rules for data access.Ensure customers, stakeholders and partners are rightly communicated on time. End user interaction, documentation, process improvementsAssess production improvement areas such as recurrent issues.Perform daily checks and maintain required standards and production processes.Provide suggestions for automating the repetitive and regular production activities.Perform bug-free release validations and produce metrices, tests and defect reports.Assist in developing guidelines and ensuring that team practices them.Ability to perform level 2/level 3 production supportIncrease coverage of data models, data dictionary, data pipeline standards, storage of source, process and consumer metadata (#reuse and #extend).Profile requiredRequire 4 to 5 years relevant experience on Java. Deep expertise and hands on experience in Core java, Spring Boot, ReactAdmin. Knowledge in Angular/React JS is a plus. Good knowledge on RESTFUL API implementation. Good knowledge in problem management and experience supporting production applications Clear understanding of Software Development life cycle and process Oriented. Would be great if worked on Agile or Continuous Delivery (CD) based projects before. Good fundamentals in Core Programming, Object Oriented design & Design patterns Should have exposure to Oracle SQL/SQL server. Any other DB apart from Oracle is also fine, provided the fundamentals of RDBMS are clear. Good to have experience in writing Sqls, stored procedures and functions. Experience in creating & executing unit tests using test driven approach with JUnit or any other equivalent. Good to have exposure to Investment banking domain. Why join us\"We are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status”.Business insightAt Société Générale, we are convinced that people are drivers of change, and that the world of tomorrow will be shaped by all their initiatives, from the smallest to the most ambitious. Whether you’re joining us for a period of months, years or your entire career, together we can have a positive impact on the future. Creating, daring, innovating, and taking action are part of our DNA. If you too want to be directly involved, grow in a stimulating and caring environment, feel useful on a daily basis and develop or strengthen your expertise, you will feel right at home with us!Still hesitating?You should know that our employees can dedicate several days per year to solidarity actions during their working hours, including sponsoring people struggling with their orientation or professional integration, participating in the financial education of young apprentices, and sharing their skills with charities. There are many ways to get involved.We are committed to support accelerating our Group’s ESG strategy by implementing ESG principles in all our activities and policies. They are translated in our business activity (ESG assessment, reporting, project management or IT activities), our work environment and in our responsible practices for environment protection.",
       "url": "https://careers.societegenerale.com/en/job-offers/specialist-software-engineer-java-fsd-260009S8-en",
       "postedAt": "2026/07/28",
-      "scrapedAt": "2026-08-15T18:50:50.397Z",
+      "scrapedAt": "2026-08-16T02:00:32.047Z",
       "score": 55,
       "reasons": [
         "software engineering title",
@@ -345,7 +368,7 @@
       "description": "ResponsibilitiesJob DescriptionSpecailist Software Engineer with 5+ years of experience in tooling development, hands on experience on tools such as Shinken, SPLUNK, Graphana and exposure of thousand eyes with deep expertise in both frontend and backend technologies—particularly React.js.LINUX on the frontend and Python with Django on the backend. leading, design and impact analysis of all new features and enhancements. Take full ownership of the end-to-end technical process—from requirement analysis and architecture design to development, deployment, and post-release support.Must have Technical Expertise:Python (Django)Excelling scripting knowledgeReact or Angular ExperienceDjangoLINUXMONGODB / INFLUXDBStrong knowledge on version control (GIT)Good to have SkillsHands on experience on any of the tools on operations, Managing and building up the dashboardsShinkenCisco SplunkTuffinGraphanaCisco Thosandeyes understandingUnderstanding of cloudBasic API understanding and configurationCCNA will be preferredKey Responsibilities· Lead and design the dashboard on various tools such as Graphana, Splunk· Extensive understanding of maintaining and hands on experience on Shinken. Upgrades, migration from GEN1 and GEN2.· Advance level expertise on Tuffin.· Shinken , Splunk,Tuffin and other tools incidents and issues resolutions· Able to resolve issues related to tools in production· Clear understanding of Agile workflow and CI/CD pipeline· Clear understanding of ITSM processes especially change management· Lead the design and impact analysis of all new features and product enhancements.· Own and drive all aspects of the software development process from design to deployment.· Provide technical leadership and guidance to development teams.· Perform peer code reviews to ensure code quality, maintainability, and performance.· Work closely with stakeholders to ensure requirements are translated into scalable and performant designs.· Utilize strong problem-solving skills to troubleshoot and resolve software issues.· Ensure the application architecture supports scalability, performance, and security best practices.· Serom management (Security Event and Response Orchestration Management),· Lead the design and impact analysis of all new features and product enhancements.· Own and drive all aspects of the software development process from design to deployment.· Provide technical leadership and guidance to development teams.· Perform peer code reviews to ensure code quality, maintainability, and performance.· 10+ years of hands-on software development experience.· Advanced understanding of Object-Oriented Programming (OOPs) principles.· Strong knowledge of Software Development Lifecycle (SDLC).· Proven experience working in an Agile development environment.· Expertise in front-end development using React.js.· Strong backend development experience using Python with Django framework.· Experience with designing for scalability and high performance.· Excellent analytical and problem-solving skills.· Strong interpersonal and communication skills, with the ability to work collaboratively with team members and stakeholders.Technical Expertise:· Shinken· Splunk· Tuffin· Python· React JS· Django· LINUX· Good Understanding of Network Automation and Scripting Expertise· CCNA will be preferred· Understanding and exposure of Thousand eyes understandingProfile requiredTechnical Expertise:· Shinken· Splunk· Tuffin· Python· React JS· Django· LINUX· Good Understanding of Network Automation and Scripting Expertise· CCNA will be preferred· Understanding and exposure of Thousand eyes understandingWhy join us“We are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status”.Business insightAt Société Générale, we are convinced that people are drivers of change, and that the world of tomorrow will be shaped by all their initiatives, from the smallest to the most ambitious.Whether you’re joining us for a period of months, years or your entire career, together we can have a positive impact on the future. Creating, daring, innovating and taking action are part of our DNA.If you too want to be directly involved, grow in a stimulating and caring environment, feel useful on a daily basis and develop or strengthen your expertise, you will feel right at home with us!Still hesitating?You should know that our employees can dedicate several days per year to solidarity actions during their working hours, including sponsoring people struggling with their orientation or professional integration, participating in the financial education of young apprentices and sharing their skills with charities. There are many ways to get involved.We are committed to support accelerating our Group’s ESG strategy by implementing ESG principles in all our activities and policies. They are translated in our business activity (ESG assessment, reporting, project management or IT activities), our work environment and in our responsible practices for environment protection",
       "url": "https://careers.societegenerale.com/en/job-offers/specialist-software-engineer-25000NDO-en",
       "postedAt": "2026/07/08",
-      "scrapedAt": "2026-08-15T18:50:51.190Z",
+      "scrapedAt": "2026-08-16T02:00:32.812Z",
       "score": 54,
       "reasons": [
         "software engineering title",
@@ -368,8 +391,8 @@
       "state": "healthy",
       "jobsFound": 6,
       "matchesFound": 1,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 186
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 575
     },
     {
       "companyId": "practo",
@@ -378,8 +401,8 @@
       "state": "healthy",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 1397
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 1193
     },
     {
       "companyId": "observe-ai",
@@ -388,19 +411,18 @@
       "state": "healthy",
       "jobsFound": 19,
       "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 143
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 260
     },
     {
       "companyId": "jpmc",
       "company": "JPMorgan Chase",
       "source": "oracle",
-      "state": "degraded",
-      "jobsFound": 0,
-      "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 1674,
-      "error": "HTTP 503 for https://jpmc.fa.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList&finder=findReqs;siteNumber=CX_1001,keyword=frontend,limit=25,offset=0"
+      "state": "healthy",
+      "jobsFound": 34,
+      "matchesFound": 1,
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 24037
     },
     {
       "companyId": "microsoft",
@@ -409,8 +431,8 @@
       "state": "healthy",
       "jobsFound": 7,
       "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 1413
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 4290
     },
     {
       "companyId": "cadence",
@@ -419,8 +441,8 @@
       "state": "healthy",
       "jobsFound": 6,
       "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 4862
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 4506
     },
     {
       "companyId": "jiohotstar",
@@ -429,8 +451,8 @@
       "state": "healthy",
       "jobsFound": 33,
       "matchesFound": 7,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 7619
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 8667
     },
     {
       "companyId": "ibm-isl",
@@ -439,8 +461,8 @@
       "state": "healthy",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 179
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 105
     },
     {
       "companyId": "ameriprise",
@@ -449,8 +471,8 @@
       "state": "healthy",
       "jobsFound": 21,
       "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 1805
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 1500
     },
     {
       "companyId": "walmart",
@@ -459,8 +481,8 @@
       "state": "degraded",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 239,
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 509,
       "error": "Official Workday endpoint is unavailable or in maintenance"
     },
     {
@@ -470,8 +492,8 @@
       "state": "healthy",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 2956
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 3725
     },
     {
       "companyId": "nutanix",
@@ -480,8 +502,8 @@
       "state": "healthy",
       "jobsFound": 9,
       "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 802
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 584
     },
     {
       "companyId": "societe-generale",
@@ -490,8 +512,8 @@
       "state": "healthy",
       "jobsFound": 100,
       "matchesFound": 7,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 8411
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 7917
     },
     {
       "companyId": "cisco",
@@ -500,8 +522,8 @@
       "state": "healthy",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 2847
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 2289
     },
     {
       "companyId": "nike",
@@ -510,8 +532,8 @@
       "state": "healthy",
       "jobsFound": 10,
       "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 1580
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 3507
     },
     {
       "companyId": "thoughtworks",
@@ -520,8 +542,8 @@
       "state": "healthy",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 308
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 389
     },
     {
       "companyId": "ather",
@@ -530,8 +552,8 @@
       "state": "degraded",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 1331,
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 1346,
       "error": "HTTP 403 for https://careers.atherenergy.com/jobs?weekdayJdUid=247705"
     },
     {
@@ -541,13 +563,13 @@
       "state": "healthy",
       "jobsFound": 21,
       "matchesFound": 0,
-      "checkedAt": "2026-08-15T18:50:39.409Z",
-      "durationMs": 12962
+      "checkedAt": "2026-08-16T02:00:16.241Z",
+      "durationMs": 2953
     }
   ],
   "notifications": {
     "emailConfigured": true,
     "whatsappConfigured": false,
-    "newMatches": 0
+    "newMatches": 1
   }
 }
