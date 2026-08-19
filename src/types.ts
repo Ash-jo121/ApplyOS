@@ -1,4 +1,4 @@
-export type SourceKind = "greenhouse" | "lever" | "workday" | "oracle" | "html";
+export type SourceKind = "greenhouse" | "lever" | "workday" | "oracle" | "html" | "linkedin" | "instahyre";
 
 export interface Job {
   id: string;

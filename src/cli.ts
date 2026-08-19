@@ -1,6 +1,7 @@
 import { COMPANIES, SCHEDULE_HOURS } from "./config.js";
 import { matchJob } from "./matcher.js";
 import { notificationConfig, sendNotifications } from "./notifiers.js";
+import { emailAlertImportEnabled, fetchEmailAlertJobs } from "./email-alerts.js";
 import { fetchCompanyJobs } from "./sources.js";
 import { applySeenState, loadSeenState, persistState } from "./state.js";
 import type { Company, CompanyStatus, Job, Match } from "./types.js";
@@ -73,9 +74,23 @@ async function main() {
     },
   );
 
+  let alertJobs: Job[] = [];
+  if (emailAlertImportEnabled()) {
+    try {
+      alertJobs = await fetchEmailAlertJobs();
+      console.log(`✓ Email discovery: ${alertJobs.length} LinkedIn/Instahyre jobs imported`);
+    } catch (error) {
+      console.error(`! Email discovery: ${error instanceof Error ? error.message : String(error)}`);
+    }
+  }
+
   const state = await loadSeenState();
-  const currentMatches = results
-    .flatMap((result) => result.jobs)
+  const officialJobs = results.flatMap((result) => result.jobs);
+  const officialKeys = new Set(officialJobs.map((job) => `${job.companyId}:${job.title.toLowerCase().replace(/[^a-z0-9]/g, "")}`));
+  const allJobs = officialJobs.concat(
+    alertJobs.filter((job) => !officialKeys.has(`${job.companyId}:${job.title.toLowerCase().replace(/[^a-z0-9]/g, "")}`)),
+  );
+  const currentMatches = allJobs
     .map((job) => matchJob(job))
     .filter((job): job is Match => job !== null);
   const matches = applySeenState(currentMatches, state, scannedAt).sort(

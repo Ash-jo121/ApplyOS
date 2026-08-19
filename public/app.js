@@ -27,7 +27,7 @@ function renderJobs() {
         <div class="job-meta">${escapeHtml(job.location || "Location not stated")} ${job.postedAt ? `· Posted ${escapeHtml(relativeTime(job.postedAt))}` : ""}</div>
         <div class="reasons">${job.reasons.slice(0, 4).map((reason) => `<span class="reason">${escapeHtml(reason)}</span>`).join("")}</div>
       </div>
-      <div class="job-action"><div class="score" title="Profile match score">${job.score}%</div><a class="view-link" href="${escapeHtml(job.url)}" target="_blank" rel="noopener noreferrer" aria-label="Open ${escapeHtml(job.title)} at the official source">↗</a></div>
+      <div class="job-action"><div class="score" title="Profile match score">${job.score}%</div><a class="view-link" href="${escapeHtml(job.url)}" target="_blank" rel="noopener noreferrer" aria-label="Open ${escapeHtml(job.title)} at the job source">↗</a></div>
     </article>`).join("");
   $("#empty").hidden = jobs.length > 0;
 }

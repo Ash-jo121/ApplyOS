@@ -50,6 +50,17 @@ Configure these as GitHub Actions repository secrets. Scanning and the dashboard
 
 Enable 2-Step Verification on the Google account, create an App Password, and save the generated 16-character password without spaces. Gmail SMTP does not require a custom domain.
 
+## LinkedIn and Instahyre discovery
+
+Official company career portals remain the primary sources. ApplyOS can also import job-alert emails from LinkedIn and Instahyre without scraping either service or storing account cookies.
+
+1. On LinkedIn, create daily email job alerts for the target companies and frontend/React roles in India. LinkedIn supports up to 20 alerts.
+2. On Instahyre, complete the candidate profile and job preferences and enable matching-job emails.
+3. Add the GitHub Actions repository secret `EMAIL_ALERT_IMPORT_ENABLED` with value `true`.
+4. Optionally add the repository variable `EMAIL_ALERT_LOOKBACK_DAYS` (default `7`, maximum `30`).
+
+The importer connects to the same Gmail account using IMAP and the existing `GMAIL_USER` and `GMAIL_APP_PASSWORD`. It searches only recent messages sent from `linkedin.com` or `instahyre.com`, extracts target-company job links, applies the normal profile matcher, and deduplicates them behind official career-portal results.
+
 ### WhatsApp via Meta Cloud API
 
 - `WHATSAPP_ACCESS_TOKEN`
