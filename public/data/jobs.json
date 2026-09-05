@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T15:19:30.568Z",
+  "generatedAt": "2026-09-05T20:27:32.215Z",
   "scheduleHours": 6,
   "matches": [
     {
@@ -12,7 +12,7 @@
       "description": "Job Summary: As a Software Development Engineer II, you’ll build a world-class platform for our customers by solving complex technical problems and building systems that run at scale. You will play a critical role in developing code and solving problems independently while shaping our next-gen solutions that drive our company's mission forward. We seek candidates with a passion for crafting elegant code and building innovative software solutions. Key responsibilities: Architecture & Design: Lead the design of complex front-end systems using modern frameworks (React.js, Next.js, and Typescript preferred) and state management libraries. Performance Engineering: Optimize web applications for maximum speed, scalability, and Core Web Vitals. Optimize startup time, rebuffering, memory usage, and rendering performance,PFR, startup time, errors, and engagement. Cross Browser: Ensure a seamless experience across desktop browsers, mobile web, and Smart TV web platforms (Tizen, webOS). Mentorship: Conduct rigorous code reviews and mentor junior/mid-level engineers on best practices and design patterns. Collaboration: Partner with Product Managers and UX Designers to translate wireframes into high-quality, reusable components. Streaming: Integrate player UI with video playback engines (HTML5, MSE, EME). Analytics & QoS: Design and integrate analytics and observability frameworks to track key metrics such as startup time, buffering ratio, rebuffer frequency, bitrate switches/drops, playback failures, and user engagement, enabling data-driven performance optimization and rollout decisions. Triaging Production issues: Ability to debug and resolve production issues under pressure, demonstrating a strong ownership mindset with a bias for performance and reliability, and delivering timely fixes that minimize customer impact. Security Compliance: Strong understanding of web security best practices, including XSS prevention, CSP, CORS, secure media playback, and DRM-related attack vectors. Skills and attributes for success: 2-4 years of professional experience in modern web development. Expert-level knowledge of TypeScript, React/Next.js, and CSS-in-JS (styled-components/Tailwind). Deep hands-on experience with HTML5 video players and SDKs such as Shaka Player, HLS.js, Video.js, and Dash.js, including customization of UI, buffering logic, error handling, and ABR behavior. Protocols: Expert knowledge of HLS and MPEG-DASH, including manifest structure, segmenting, DRM, and adaptive bitrate. Hands-on experience with modern build systems (Webpack, Vite, Rollup), CI/CD pipelines, and automated testing (Jest, React Testing Library, Playwright), ensuring high-quality A/B experiments and production-ready releases. Preferred education and experience: Bachelor’s or Master’s degree in Computer Science or a related field. 2-4 years of Web development experience.",
       "url": "https://jiostar.wd102.myworkdayjobs.com/en-US/JioStar/job/Bengaluru/Software-Development-Engineer-II---Web_JR10487",
       "postedAt": "2026-06-01",
-      "scrapedAt": "2026-09-05T15:19:38.518Z",
+      "scrapedAt": "2026-09-05T20:27:42.200Z",
       "score": 67,
       "reasons": [
         "software engineering title",
@@ -36,7 +36,7 @@
       "description": "Job Summary: As a Software Development Engineer II, you’ll build a world-class platform for our customers by solving complex technical problems and building systems that run at scale. You will play a critical role in developing code and solving problems independently while shaping our next-gen solutions that drive our company's mission forward. We seek candidates with a passion for crafting elegant code and building innovative software solutions. Key responsibilities: Architecture & Design: Lead the design of complex front-end systems using modern frameworks (React.js, Next.js, and Typescript preferred) and state management libraries. Performance Engineering: Optimize web applications for maximum speed, scalability, and Core Web Vitals. Optimize startup time, rebuffering, memory usage, and rendering performance,PFR, startup time, errors, and engagement. Cross Browser: Ensure a seamless experience across desktop browsers, mobile web, and Smart TV web platforms (Tizen, webOS). Mentorship: Conduct rigorous code reviews and mentor junior/mid-level engineers on best practices and design patterns. Collaboration: Partner with Product Managers and UX Designers to translate wireframes into high-quality, reusable components. Streaming: Integrate player UI with video playback engines (HTML5, MSE, EME). Analytics & QoS: Design and integrate analytics and observability frameworks to track key metrics such as startup time, buffering ratio, rebuffer frequency, bitrate switches/drops, playback failures, and user engagement, enabling data-driven performance optimization and rollout decisions. Triaging Production issues: Ability to debug and resolve production issues under pressure, demonstrating a strong ownership mindset with a bias for performance and reliability, and delivering timely fixes that minimize customer impact. Security Compliance: Strong understanding of web security best practices, including XSS prevention, CSP, CORS, secure media playback, and DRM-related attack vectors. Skills and attributes for success: 2-4 years of professional experience in modern web development. Expert-level knowledge of TypeScript, React/Next.js, and CSS-in-JS (styled-components/Tailwind). Deep hands-on experience with HTML5 video players and SDKs such as Shaka Player, HLS.js, Video.js, and Dash.js, including customization of UI, buffering logic, error handling, and ABR behavior. Protocols: Expert knowledge of HLS and MPEG-DASH, including manifest structure, segmenting, DRM, and adaptive bitrate. Hands-on experience with modern build systems (Webpack, Vite, Rollup), CI/CD pipelines, and automated testing (Jest, React Testing Library, Playwright), ensuring high-quality A/B experiments and production-ready releases. Preferred education and experience: Bachelor’s or Master’s degree in Computer Science or a related field. 2-4 years of Web development experience. About Us Perched firmly at the nucleus of spellbinding content and innovative technology, JioStar is a leading global media & entertainment company that is reimagining the way audiences consume entertainment and sports. Its television network and streaming service together reach more than 750 million viewers every week, igniting the dreams and aspirations of hundreds of million people across geographies. JioStar India Private Limited (formerly known as Star India Private Limited) is an equal opportunity employer. The company values diversity and its mission is to create a workplace where everyone can bring their authentic selves to work. The company ensures that the work environment is free from any discrimination against persons with disabilities, gender, gender identity and any other characteristics or status that is legally protected.",
       "url": "https://jiostar.wd102.myworkdayjobs.com/en-US/JioStar/job/Bengaluru/Software-Development-Engineer-II---Web_JR10301",
       "postedAt": "2026-07-27",
-      "scrapedAt": "2026-09-05T15:19:38.932Z",
+      "scrapedAt": "2026-09-05T20:27:42.466Z",
       "score": 67,
       "reasons": [
         "software engineering title",
@@ -60,7 +60,7 @@
       "description": "Job Summary: As a Senior Software Development Engineer, you will be responsible for bridging the gap between high-level business goals and hands-on execution. You will build scalable systems, define architectural blueprints, and actively mentor engineering teams across both front-end and back-end ecosystems. About the team: At JioHotstar, GenAI studios is an AI native, agile & fast-moving team focused on turning bold ideas into impactful features for professional film making products. From rapid prototyping of new concepts to building scalable platforms that power future growth, we thrive on experimentation and innovation. Our platform highlights creators and their narratives by giving them AI-powered systems using advanced machine learning and multimedia pipelines. As part of this team, you’ll work at the intersection of creativity and technology — building end-to-end experiences, experimenting with emerging tech, and shaping the future of entertainment content. Reporting To: Engineering Manager Key responsibilities: ● Design and build scalable, resilient microservices ● Own end-to-end delivery of complex fullstack projects, from technical design to deployment and monitoring ● Write high-quality, maintainable code, and ensure rigorous testing and fault tolerance ● Drive architectural decisions and influence long-term engineering strategy for the team ● Collaborate closely with Product Managers, Data Scientists, and cross-functional teams to translate business needs into tech solutions ● Take ownership of operational excellence, including performance tuning, incident response, and root cause analysis ● Mentor junior engineers, conduct technical deep dives and code reviews, and foster a culture of knowledge sharing Skills and attributes for success: ● 4 -7 years of hands-on fullstack software development experience. ● Front-End Technologies: Expertise in modern JavaScript/TypeScript and frameworks like React.js, or Next.js. ● Back-End Technologies: Strong proficiency in server-side technology - Python, experience with Golang is an added advantage. ● Hands-on experience with relational/non-relational databases (e.g., PostgreSQL, MongoDB) and cloud platforms (AWS or GCP). ● Tools & Practices: Deep understanding of Agile methodologies, DevOps practices, AI-assisted coding tools, and API design (REST) ● Exceptional leadership, communication, and presentation skills. ● Strong capability in prioritizing tasks and navigating ambiguous, fast-paced environments. Preferred education and experience: Bachelors/Masters in Computer Science or a related field with 4 - 7 years of experience in fullstack software development. About Us: Perched firmly at the nucleus of spellbinding content and innovative technology, JioStar is a leading global media & entertainment company that is reimagining the way audiences consume entertainment and sports. Its television network and streaming service together reach more than 750 million viewers every week, igniting the dreams and aspirations of hundreds of million people across geographies.",
       "url": "https://jiostar.wd102.myworkdayjobs.com/en-US/JioStar/job/Bengaluru--We-Work/Senior-Software-Development-Engineer_JR12220",
       "postedAt": "2026-08-05",
-      "scrapedAt": "2026-09-05T15:19:38.502Z",
+      "scrapedAt": "2026-09-05T20:27:42.187Z",
       "score": 63,
       "reasons": [
         "software engineering title",
@@ -84,7 +84,7 @@
       "description": "ResponsibilitiesTSI/GIS- Technology Strategy & Innovation- GTS Information Systeam responsible for maintaining and supporting the applicaitons of infrasture Domain under GTS.Profile requiredProfile RequiredExp – 4-9 YearsTechnical Skills• Should have Prior experience in Python, Rest Services, react.js, PHP, SQL, PL/SQL• Should have Cloud, Kubernetes working experience.• Should have hands on working experience in Application development..• Should have good analytical and problem-solving skills.• Should had experience in understanding Data Specially Infrastructure Domain related and provide business insight to bring more Utilization of Asses Referential for organization.• Should be able to do complex design and high-performance architecture.• Ability to evaluate technical approaches and discuss pros and cons of each to arrive at a design.• Should have strong concepts on building Security around the entire Datawarehouse.• Should have Good Functional Knowledge in the areas of Infrastructure Domain Preferably Servers/Storage/Network etc, ITIL.• Aware of the standard Change management and Project management processes.• This role will focus on Support, Enhancements and new Projects.Key Responsibilities:• Drive Assets Referential Functional Strategy (Marley), solution definition and execution for client needs.• Responsible for project planning, work product quality, project execution and project reviews.• Thrive to become a subject matter expert on internal Group Asset Referential System (Marley).• Become an advocate for Marley Asset and CI’s along with their usage and support user enablement and adoption.• Develop in-depth business requirements for large projects -across a variety of business functions in all size projects.• Work with all related business and support unit stakeholders, including the product owner and technical leader , to analyze and challenge the business requirements, leading to functional discussions and specifications, precise usage and detailed user stories.• Demonstrate expertise on business processes, life-cycles, and data drivers.• Drive testing activities on new solutions introduced into production.• Drive input to Marley development team on requirements and enhancements to existing data sets and reporting technologies.• Collaborate on the definition of KPIs and metrics to monitor and run the business.• Plan and execute communication, training, and documentation to enable successful user adoption.• Drive proof-of-concepts, tool evaluations, and data quality activities.• Guide and mentor other Business Analysts in the team.• Demonstrate innovation & thought leadership toward enhancing business value, process improvements and customer impact.• Participate in design discussions and be able to implement any design decisions.• Participate high –level Architecture designs for the Assets Referential Strategy (Marley).• Understanding of Infrastructure Domain/ITIL to provide more business site of Reporting utilization's• Excellent upstream and downstream communication skills, ability to communicate complex ideas verbally and through documentation.Must have:- Experience working in Agile Team.- Analyzing new requirements, designing and implementing technical solutions.- Strong Communication skills – should be able to articulate and present project demos to leadership teams.- Excellent writing and presentation skills.- Capable of quickly learning & implementing new tools/technologies.- Strong technical ability to research and independently drive technical POC’s.Good to have:- French speaking/understanding- Experience with databases such as Oracle, Postgres, MySQL.Why join us“We are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status”.Business insightAt Société Générale, we are convinced that people are drivers of change, and that the world of tomorrow will be shaped by all their initiatives, from the smallest to the most ambitious.Whether you’re joining us for a period of months, years or your entire career, together we can have a positive impact on the future. Creating, daring, innovating and taking action are part of our DNA.If you too want to be directly involved, grow in a stimulating and caring environment, feel useful on a daily basis and develop or strengthen your expertise, you will feel right at home with us!Still hesitating?You should know that our employees can dedicate several days per year to solidarity actions during their working hours, including sponsoring people struggling with their orientation or professional integration, participating in the financial education of young apprentices and sharing their skills with charities. There are many ways to get involved.",
       "url": "https://careers.societegenerale.com/en/job-offers/software-engineer-full-stack-2600068T-en",
       "postedAt": "2026/04/08",
-      "scrapedAt": "2026-09-05T15:19:49.407Z",
+      "scrapedAt": "2026-09-05T20:27:50.204Z",
       "score": 63,
       "reasons": [
         "full-stack title",
@@ -108,7 +108,7 @@
       "description": "ResponsibilitiesTSI/GIS- Technology Strategy & Innovation- GTS Information Systeam responsible for maintaining and supporting the applicaitons of infrasture Domain under GTS.Profile requiredProfile RequiredExp – 4-9 YearsTechnical Skills• Should have Prior experience in Python, Rest Services, react.js, PHP, SQL, PL/SQL• Should have Cloud, Kubernetes working experience.• Should have hands on working experience in Application development..• Should have good analytical and problem-solving skills.• Should had experience in understanding Data Specially Infrastructure Domain related and provide business insight to bring more Utilization of Asses Referential for organization.• Should be able to do complex design and high-performance architecture.• Ability to evaluate technical approaches and discuss pros and cons of each to arrive at a design.• Should have strong concepts on building Security around the entire Datawarehouse.• Should have Good Functional Knowledge in the areas of Infrastructure Domain Preferably Servers/Storage/Network etc, ITIL.• Aware of the standard Change management and Project management processes.• This role will focus on Support, Enhancements and new Projects.Key Responsibilities:• Drive Assets Referential Functional Strategy (Marley), solution definition and execution for client needs.• Responsible for project planning, work product quality, project execution and project reviews.• Thrive to become a subject matter expert on internal Group Asset Referential System (Marley).• Become an advocate for Marley Asset and CI’s along with their usage and support user enablement and adoption.• Develop in-depth business requirements for large projects -across a variety of business functions in all size projects.• Work with all related business and support unit stakeholders, including the product owner and technical leader , to analyze and challenge the business requirements, leading to functional discussions and specifications, precise usage and detailed user stories.• Demonstrate expertise on business processes, life-cycles, and data drivers.• Drive testing activities on new solutions introduced into production.• Drive input to Marley development team on requirements and enhancements to existing data sets and reporting technologies.• Collaborate on the definition of KPIs and metrics to monitor and run the business.• Plan and execute communication, training, and documentation to enable successful user adoption.• Drive proof-of-concepts, tool evaluations, and data quality activities.• Guide and mentor other Business Analysts in the team.• Demonstrate innovation & thought leadership toward enhancing business value, process improvements and customer impact.• Participate in design discussions and be able to implement any design decisions.• Participate high –level Architecture designs for the Assets Referential Strategy (Marley).• Understanding of Infrastructure Domain/ITIL to provide more business site of Reporting utilization's• Excellent upstream and downstream communication skills, ability to communicate complex ideas verbally and through documentation.Must have:- Experience working in Agile Team.- Analyzing new requirements, designing and implementing technical solutions.- Strong Communication skills – should be able to articulate and present project demos to leadership teams.- Excellent writing and presentation skills.- Capable of quickly learning & implementing new tools/technologies.- Strong technical ability to research and independently drive technical POC’s.Good to have:- French speaking/understanding- Experience with databases such as Oracle, Postgres, MySQL.Why join us“We are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status”.Business insightAt Société Générale, we are convinced that people are drivers of change, and that the world of tomorrow will be shaped by all their initiatives, from the smallest to the most ambitious.Whether you’re joining us for a period of months, years or your entire career, together we can have a positive impact on the future. Creating, daring, innovating and taking action are part of our DNA.If you too want to be directly involved, grow in a stimulating and caring environment, feel useful on a daily basis and develop or strengthen your expertise, you will feel right at home with us!Still hesitating?You should know that our employees can dedicate several days per year to solidarity actions during their working hours, including sponsoring people struggling with their orientation or professional integration, participating in the financial education of young apprentices and sharing their skills with charities. There are many ways to get involved.",
       "url": "https://careers.societegenerale.com/en/job-offers/software-engineer-full-stack-260007U0-en",
       "postedAt": "2026/04/08",
-      "scrapedAt": "2026-09-05T15:19:49.496Z",
+      "scrapedAt": "2026-09-05T20:27:50.391Z",
       "score": 63,
       "reasons": [
         "full-stack title",
@@ -132,7 +132,7 @@
       "description": "You’re ready to gain the skills and experience needed to grow within your role and advance your career — and we have the perfect software engineering opportunity for you. As a Software Engineer II at JPMorganChase within the Employee Platform, you are part of an agile team that works to enhance, design, and deliver the software components of the firm’s state-of-the-art technology products in a secure, stable, and scalable way. As an emerging member of a software engineering team, you execute software solutions through the design, development, and technical troubleshooting of multiple components within a technical product, application, or system, while gaining the skills and experience needed to grow within your role. Job responsibilities Executes standard software solutions, design, development, and technical troubleshooting Designs, develops, codes, and troubleshoots with consideration of upstream and downstream systems and technical implications Applies knowledge of tools within the Software Development Life Cycle toolchain, including enterprise-authorized AI-assisted development and automation capabilities, to improve the value realized by automation. Leverages enterprise-authorized AI coding assist tools within the work environment to improve code quality, delivery speed, and productivity (e.g., code generation/refactoring, unit test creation, documentation), while validating outputs through peer review, automated testing, and secure coding standards Gathers, analyzes, and draws conclusions from large, diverse data sets to identify problems and contribute to decision-making in service of secure, stable application development Learns and applies system processes, methodologies, and skills for the development of secure, stable code and systems Adds to team culture of diversity, opportunity, inclusion, and respect Required qualifications, capabilities, and skills Good hands-on .NET/Java & React/Angular tech stack with 3+ years of experience, should be willing to work on .NET primarily Hands-on practical experience in system design, application development, testing, and operational stability Experience in developing, debugging, and maintaining code in a large corporate environment with one or more modern programming languages and database querying languages Understanding of responsible AI use in engineering workflows, including data sensitivity considerations, secure handling of inputs/outputs, and adherence to resiliency and security expectations Hands-on experience using enterprise-authorized AI-assisted software development tools within the work environment (e.g., for coding, testing, troubleshooting, or documentation) with demonstrated ability to critically evaluate and validate AI-generated output Exposure to agile methodologies such as CI/CD, Application Resiliency, and Security Emerging knowledge of software applications and technical processes within a technical discipline (e.g., cloud, artificial intelligence, machine learning, mobile, etc.) Preferred qualifications, capabilities, and skills Familiarity with modern front-end technologies Exposure to cloud technologies Understanding/ exposure to JAVA tech stack is a plus Serve as an emerging member of an agile team to design and deliver market-leading technology products in a secure and scalable way",
       "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210733010",
       "postedAt": "2026-08-19T10:33:20+00:00",
-      "scrapedAt": "2026-09-05T15:19:40.537Z",
+      "scrapedAt": "2026-09-05T20:27:42.423Z",
       "score": 61,
       "reasons": [
         "full-stack title",
@@ -156,7 +156,7 @@
       "description": "ResponsibilitiesMinimum 5 Years Of Full Stack Development Experience.Role DescriptionQualifiersIndependently design components, develop code and test case scenarios by applying relevant software craftsmanship principles and meet the acceptance criteria.Complete the assigned learning path. Take part in team ceremonies be it agile practices or chapter meetings.Deliver on all aspects of Software Development Lifecyle (SDLC) in-line with Agile and IT craftsmanship principles.Deliver high-quality clean code and design that can be re-used.Actively, work with other development teams to define and implement API's and rules for data access.Ensure customers, stakeholders and partners are rightly communicated on time.Assess production improvement areas such as recurrent issues.Perform daily checks and maintain required standards and production processes.Provide suggestions for automating the repetitive and regular production activities.Perform bug-free release validations and produce metrices, tests and defect reports.Assist in developing guidelines and ensuring that team practices them.Ability to perform level 2/level 3 production supportIncrease coverage of data models, data dictionary, data pipeline standards, storage of source, process and consumer metadata (#reuse and #extend).Octoflow MissionDesign, develop, and maintain data pipelinesCollect, transform, and integrate data from various sources (APIs, files, tables, etc.)Optimize processing performance and storageAdd features around Octoflow data – ScalaWork closely with Full Stack developers to meet business needsParticipate in business meetings to challenge the addition of new featuresTake part in follow-up rituals (weekly committees, technical meetings, progress reporting)Profile requiredBackend: Java 21, Spring Boot, REST APIs, JWT/RTFE security, permissions management (SGIAM, SG Sign-In, etc.)Frontend: ReactJS, TypeScript, React Context, SG Design System integrationData & Cloud: PostgreSQL, CI/CD (Git, automated pipelines)Testing & Quality: JUnit, Jest/RTL, continuous integration, code coverageArchitecture: Knowledge of hexagonal patterns, microservicesMethodology: Agile, backlog management, collaborative workWhy join usWe are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status.Business insightAt Société Générale, we are convinced that people are drivers of change, and that the world of tomorrow will be shaped by all their initiatives, from the smallest to the most ambitious. Whether you’re joining us for a period of months, years or your entire career, together we can have a positive impact on the future. Creating, daring, innovating, and taking action are part of our DNA. If you too want to be directly involved, grow in a stimulating and caring environment, feel useful on a daily basis and develop or strengthen your expertise, you will feel right at home with us!Still hesitating? You should know that our employees can dedicate several days per year to solidarity actions during their working hours, including sponsoring people struggling with their orientation or professional integration, participating in the financial education of young apprentices, and sharing their skills with charities. There are many ways to get involved.We are committed to support accelerating our Group’s ESG strategy by implementing ESG principles in all our activities and policies. They are translated in our business activity (ESG assessment, reporting, project management or IT activities), our work environment and in our responsible practices for environment protection.",
       "url": "https://careers.societegenerale.com/en/job-offers/specialist-software-engineer-260007XE-en",
       "postedAt": "2026/06/18",
-      "scrapedAt": "2026-09-05T15:19:48.720Z",
+      "scrapedAt": "2026-09-05T20:27:49.530Z",
       "score": 59,
       "reasons": [
         "software engineering title",
@@ -179,7 +179,7 @@
       "description": "Job Summary: As a Senior Software Engineer, you’ll build a world-class platform for our customers by solving complex technical problems and building systems that run at scale. You will play a critical role in developing code and solving problems independently while shaping our next-gen solutions that drive our company's mission forward. We seek candidates with a passion for crafting elegant code and building innovative software solutions. About the team: Join our Player team to build and optimize world-class video playback experiences for millions of users on Desktop browsers, Smart TVs (like webOS, Tizen, and VIDAA), Mobile browsers etc. If you’re passionate about streaming technology and delivering smooth, high-quality playback, join us! Key responsibilities: Architecture & Design: Lead the design of complex front-end systems using modern frameworks (React.js, Next.js, and Typescript preferred) and state management libraries. Performance Engineering: Optimize web applications for maximum speed, scalability, and Core Web Vitals. Optimize startup time, rebuffering, memory usage, and rendering performance,PFR, startup time, errors, and engagement. Cross Browser: Ensure a seamless experience across desktop browsers, mobile web, and Smart TV web platforms (Tizen, webOS). Mentorship: Conduct rigorous code reviews and mentor junior/mid-level engineers on best practices and design patterns. Collaboration: Partner with Product Managers and UX Designers to translate wireframes into high-quality, reusable components. Streaming: Integrate player UI with video playback engines (HTML5, MSE, EME). Analytics & QoS: Design and integrate analytics and observability frameworks to track key metrics such as startup time, buffering ratio, rebuffer frequency, bitrate switches/drops, playback failures, and user engagement, enabling data-driven performance optimization and rollout decisions. Triaging Production issues: Ability to debug and resolve production issues under pressure, demonstrating a strong ownership mindset with a bias for performance and reliability, and delivering timely fixes that minimize customer impact. Security Compliance: Strong understanding of web security best practices, including XSS prevention, CSP, CORS, secure media playback, and DRM-related attack vectors. Skills and attributes for success: 4&#43; years of professional experience in modern web development. Expert-level knowledge of TypeScript, React/Next.js, and CSS-in-JS (styled-components/Tailwind). Deep hands-on experience with HTML5 video players and SDKs such as Shaka Player, HLS.js, Video.js, and Dash.js, including customization of UI, buffering logic, error handling, and ABR behavior. Protocols: Expert knowledge of HLS and MPEG-DASH, including manifest structure, segmenting, DRM, and adaptive bitrate. Hands-on experience with modern build systems (Webpack, Vite, Rollup), CI/CD pipelines, and automated testing (Jest, React Testing Library, Playwright), ensuring high-quality A/B experiments and production-ready releases. Preferred education and experience: Bachelor’s or Master’s degree in Computer Science or a related field. 4&#43; years of Web development experience.",
       "url": "https://jiostar.wd102.myworkdayjobs.com/en-US/JioStar/job/Bengaluru--We-Work/Senior-Software-Development-Engineer_JR11940",
       "postedAt": "2026-06-25",
-      "scrapedAt": "2026-09-05T15:19:38.477Z",
+      "scrapedAt": "2026-09-05T20:27:42.118Z",
       "score": 58,
       "reasons": [
         "software engineering title",
@@ -202,7 +202,7 @@
       "description": "As a Software Engineer II within the Asset and Wealth Management Data and Analytics team at JPMorgan Chase, you are part of an agile group that designs, enhances, and delivers secure, stable, and scalable software components for the firm’s state-of-the-art technology products. As an emerging member of this software engineering team, you implement software solutions by contributing to the design, development, and technical troubleshooting of multiple components across applications, systems, and technical products, while building the skills and experience needed to advance in your role Job responsibilities Executes standard software solutions, design, development, and technical troubleshooting Writes secure and high-quality code using the syntax of at least one programming language with limited guidance Designs, develops, codes, and troubleshoots with consideration of upstream and downstream systems and technical implications Leverages enterprise-authorized AI coding assist tools within the work environment to improve code quality, delivery speed, and productivity (e.g., code generation/refactoring, unit test creation, documentation), while validating outputs through peer review, automated testing, and secure coding standards Applies knowledge of tools within the Software Development Life Cycle toolchain, including enterprise-authorized AI-assisted development and automation capabilities, to improve the value realized by automation Applies technical troubleshooting to break down solutions and solve technical problems of basic complexity Gathers, analyzes, and draws conclusions from large, diverse data sets to identify problems and contribute to decision-making in service of secure, stable application development Learns and applies system processes, methodologies, and skills for the development of secure, stable code and systems Required qualifications, capabilities, and skills Formal training or certification on software engineering concepts and 2+ years applied experience Tech Skills ; FullStack - React, TypeScript, Java/Python Backend, AI skills, AWS infrastructure Hands-on practical experience in system design, application development, testing, and operational stability Experience in developing, debugging, and maintaining code in a large corporate environment with one or more modern programming languages and database querying languages Understanding of responsible AI use in engineering workflows, including data sensitivity considerations, secure handling of inputs/outputs, and adherence to resiliency and security expectations Exposure to agile methodologies such as CI/CD, Application Resiliency, and Security Hands-on experience using enterprise-authorized AI-assisted software development tools within the work environment (e.g., for coding, testing, troubleshooting, or documentation) with demonstrated ability to critically evaluate and validate AI-generated output Preferred qualifications, capabilities, and skills Experience with Java , Spring Boot, Spring JPA, Database Familiarity with modern front-end technologies Exposure to cloud technologies AWS Serve as an emerging member of an agile team to design and deliver market-leading technology products in a secure and scalable way",
       "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773698",
       "postedAt": "2026-09-04T10:06:33+00:00",
-      "scrapedAt": "2026-09-05T15:19:37.045Z",
+      "scrapedAt": "2026-09-05T20:27:38.947Z",
       "score": 54,
       "reasons": [
         "full-stack title",
@@ -225,7 +225,7 @@
       "description": "ResponsibilitiesJob DescriptionSpecailist Software Engineer with 5+ years of experience in tooling development, hands on experience on tools such as Shinken, SPLUNK, Graphana and exposure of thousand eyes with deep expertise in both frontend and backend technologies—particularly React.js.LINUX on the frontend and Python with Django on the backend. leading, design and impact analysis of all new features and enhancements. Take full ownership of the end-to-end technical process—from requirement analysis and architecture design to development, deployment, and post-release support.Must have Technical Expertise:Python (Django)Excelling scripting knowledgeReact or Angular ExperienceDjangoLINUXMONGODB / INFLUXDBStrong knowledge on version control (GIT)Good to have SkillsHands on experience on any of the tools on operations, Managing and building up the dashboardsShinkenCisco SplunkTuffinGraphanaCisco Thosandeyes understandingUnderstanding of cloudBasic API understanding and configurationCCNA will be preferredKey Responsibilities· Lead and design the dashboard on various tools such as Graphana, Splunk· Extensive understanding of maintaining and hands on experience on Shinken. Upgrades, migration from GEN1 and GEN2.· Advance level expertise on Tuffin.· Shinken , Splunk,Tuffin and other tools incidents and issues resolutions· Able to resolve issues related to tools in production· Clear understanding of Agile workflow and CI/CD pipeline· Clear understanding of ITSM processes especially change management· Lead the design and impact analysis of all new features and product enhancements.· Own and drive all aspects of the software development process from design to deployment.· Provide technical leadership and guidance to development teams.· Perform peer code reviews to ensure code quality, maintainability, and performance.· Work closely with stakeholders to ensure requirements are translated into scalable and performant designs.· Utilize strong problem-solving skills to troubleshoot and resolve software issues.· Ensure the application architecture supports scalability, performance, and security best practices.· Serom management (Security Event and Response Orchestration Management),· Lead the design and impact analysis of all new features and product enhancements.· Own and drive all aspects of the software development process from design to deployment.· Provide technical leadership and guidance to development teams.· Perform peer code reviews to ensure code quality, maintainability, and performance.· 10+ years of hands-on software development experience.· Advanced understanding of Object-Oriented Programming (OOPs) principles.· Strong knowledge of Software Development Lifecycle (SDLC).· Proven experience working in an Agile development environment.· Expertise in front-end development using React.js.· Strong backend development experience using Python with Django framework.· Experience with designing for scalability and high performance.· Excellent analytical and problem-solving skills.· Strong interpersonal and communication skills, with the ability to work collaboratively with team members and stakeholders.Technical Expertise:· Shinken· Splunk· Tuffin· Python· React JS· Django· LINUX· Good Understanding of Network Automation and Scripting Expertise· CCNA will be preferred· Understanding and exposure of Thousand eyes understandingProfile requiredTechnical Expertise:· Shinken· Splunk· Tuffin· Python· React JS· Django· LINUX· Good Understanding of Network Automation and Scripting Expertise· CCNA will be preferred· Understanding and exposure of Thousand eyes understandingWhy join us“We are committed to creating a diverse environment and are proud to be an equal opportunity employer. All qualified applicants receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status”.Business insightAt Société Générale, we are convinced that people are drivers of change, and that the world of tomorrow will be shaped by all their initiatives, from the smallest to the most ambitious.Whether you’re joining us for a period of months, years or your entire career, together we can have a positive impact on the future. Creating, daring, innovating and taking action are part of our DNA.If you too want to be directly involved, grow in a stimulating and caring environment, feel useful on a daily basis and develop or strengthen your expertise, you will feel right at home with us!Still hesitating?You should know that our employees can dedicate several days per year to solidarity actions during their working hours, including sponsoring people struggling with their orientation or professional integration, participating in the financial education of young apprentices and sharing their skills with charities. There are many ways to get involved.We are committed to support accelerating our Group’s ESG strategy by implementing ESG principles in all our activities and policies. They are translated in our business activity (ESG assessment, reporting, project management or IT activities), our work environment and in our responsible practices for environment protection",
       "url": "https://careers.societegenerale.com/en/job-offers/specialist-software-engineer-25000NDO-en",
       "postedAt": "2026/07/08",
-      "scrapedAt": "2026-09-05T15:19:48.578Z",
+      "scrapedAt": "2026-09-05T20:27:49.283Z",
       "score": 54,
       "reasons": [
         "software engineering title",
@@ -249,7 +249,7 @@
       "description": "We have an exciting and rewarding opportunity for you to take your software engineering career to the next level. As a Software Engineer III at JPMorganChase within the Auto FINANCE AND DRIVE, you serve as a seasoned member of an agile team to design and deliver trusted market-leading technology products in a secure, stable, and scalable way. You are responsible for carrying out critical technology solutions across multiple technical areas within various business functions in support of the firm’s business objectives. Job responsibilities Executes software solutions, design, development, and technical troubleshooting with ability to think beyond routine or conventional approaches to build solutions or breakdown technical problems Creates secure and high-quality production code and maintains algorithms that run synchronously with appropriate systems Leverages enterprise-authorized AI coding assist tools within the work environment to improve code quality, delivery speed, and productivity across complex deliverables (e.g., code generation/refactoring, unit test creation, documentation), while validating outputs through peer review, automated testing, and secure coding standards; contributes learnings and reusable patterns to improve broader team effectiveness. Applies knowledge of tools within the Software Development Life Cycle toolchain, including enterprise-authorized AI-assisted development and automation capabilities, to improve the value realized by automation. Produces architecture and design artifacts for complex applications while being accountable for ensuring design constraints are met by software code development Gathers, analyzes, synthesizes, and develops visualizations and reporting from large, diverse data sets in service of continuous improvement of software applications and systems Proactively identifies hidden problems and patterns in data and uses these insights to drive improvements to coding hygiene and system architecture Required qualifications, capabilities, and skills Formal training or certification on software engineering concepts and 3+ years applied experience Hands-on practical experience in system design, application development, testing, and operational stability Hands on Java, Spring Boot, React Native, AWS (ECS, DynamoDB, Postgres), Kafka, IaC/Terraform, EaC Experience in developing, debugging, and maintaining code in a large corporate environment with one or more modern programming languages and database querying languages Hands-on experience using enterprise-authorized AI-assisted software development tools within the work environment (e.g., for coding, test creation, troubleshooting, or documentation) with demonstrated ability to critically evaluate, validate, and refine AI-generated outputs for correctness, performance, and security. Understanding of responsible AI use in engineering workflows, including data sensitivity considerations, secure handling of inputs/outputs, and adherence to resiliency and security expectations; ability to guide peers on safe and effective usage within team practices. Overall knowledge of the Software Development Life Cycle Solid understanding of agile methodologies such as CI/CD, Application Resiliency, and Security Preferred qualifications, capabilities, and skills Familiarity with modern front-end technologies Exposure to cloud technologies Design and deliver market-leading technology products in a secure and scalable way as a seasoned member of an agile team",
       "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775730",
       "postedAt": "2026-09-03T13:24:08+00:00",
-      "scrapedAt": "2026-09-05T15:19:38.749Z",
+      "scrapedAt": "2026-09-05T20:27:40.634Z",
       "score": 49,
       "reasons": [
         "full-stack title",
@@ -272,7 +272,7 @@
       "description": "Join a dynamic, high-performing team where your distinctive skills will contribute to a winning culture and strong outcomes. As a Software Engineer III at JPMorgan Chase within Consumer & Community Banking, you will be a seasoned member of an agile team designing and delivering end-to-end application development across both frontend and backend components, while leveraging agentic AI capabilities to deliver business solutions in scalable way. You will develop, test, and maintain critical end to end application, application data and architectures, and you’ll partner across business and technology teams to support the firm’s objectives. This role is ideal for someone who is dynamic and hands-on, with the ability to use agentic tools efficiently to accelerate delivery across full-stack development, data engineering, and machine learning enablement. Job Responsibilities : Design and build ML systems end-to-end: problem framing, data prep, feature engineering, model training, evaluation, deployment, monitoring, and iteration. Develop agentic AI solutions: LLM agents that plan, call tools/APIs, run multi-step workflows, and apply guardrails/fail-safes. Implement RAG capabilities: retrieval strategy, chunking, embeddings, indexing, and re-ranking to ground agent responses in knowledge. Build full-stack product experiences for ML/agent systems: backend services plus frontend UIs for configuration, human-in-the-loop review, observability, and workflow execution. Develop and integrate APIs/services: design and implement RESTful (and/or event-driven) integrations to serve models, agents, features, and data products. Build scalable data pipelines with Apache Spark (PySpark/Scala) for batch processing and feature generation. Use SQL extensively for exploration, transformations, validation checks, and query performance tuning on large datasets. Operationalize and evaluate ML/LLM systems with MLOps: CI/CD, model registry, experiment tracking, reproducible training, automated evaluation/regression tests, and quality frameworks (offline metrics + HITL). Leverages enterprise-authorized AI coding assist tools within the work environment to improve code quality, delivery speed, and productivity across complex deliverables (e.g., code generation/refactoring, unit test creation, documentation), while validating outputs through peer review, automated testing, and secure coding standards; contributes learnings and reusable patterns to improve broader team effectiveness. Applies knowledge of tools within the Software Development Life Cycle toolchain, including enterprise-authorized AI-assisted development and automation capabilities, to improve the value realized by automation. Required qualifications, skills, and capabilities 3+ years delivering production ML solutions, owning the end-to-end lifecycle from problem framing through deployment and iteration. Experience in React, octagon framework for UI development. Experience in building , integrating APIs for Experience services. Strong ML fundamentals, including supervised/unsupervised learning, feature engineering, model evaluation, bias/variance tradeoffs, and error analysis. Hands-on agentic AI / LLM application development, including tool/function calling, planning, and memory patterns. Experience building RAG pipelines, covering retrieval strategies, chunking, embeddings, and re-ranking approaches. Implemented LLM guardrails, such as policy checks, refusal handling, PII filtering, and deterministic fallback behaviors. Strong Python programming skills for building ML/LLM systems and supporting tooling. Full-stack engineering experience, building/operating backend APIs/services (REST and/or event-driven) and modern web frontends (React/Angular/Vue) for HITL workflows, configuration, and monitoring/analytics. Advanced data engineering/query skills, including expert SQL (joins, window functions, CTEs, optimization), strong Apache Spark/PySpark (DataFrames, Spark SQL, tuning/partitioning), and experience running ML services with monitoring and alerting (batch or real-time). Hands-on experience using enterprise-authorized AI-assisted software development tools within the work environment (e.g., for coding, test creation, troubleshooting, or documentation) with demonstrated ability to critically evaluate, validate, and refine AI-generated outputs for correctness, performance, and security. Understanding of responsible AI use in engineering workflows, including data sensitivity considerations, secure handling of inputs/outputs, and adherence to resiliency and security expectations; ability to guide peers on safe and effective usage within team practices Build and refine agent promote data pipelines using artificial intelligence, cloud services, data processing, programming and learning",
       "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210785281",
       "postedAt": "2026-09-02T09:14:56+00:00",
-      "scrapedAt": "2026-09-05T15:19:48.311Z",
+      "scrapedAt": "2026-09-05T20:27:50.018Z",
       "score": 48,
       "reasons": [
         "software engineering title",
@@ -295,7 +295,7 @@
       "description": "Design and deliver market-leading technology products in a secure and scalable way as a seasoned member of an agile team As a Software Engineer III at JPMorgan Chase within the Consumer and Community Banking on the BBAO team, you will design, build, and support scalable backend services, APIs, and modern UI applications that enable seamless customer acquisition and account origination journeys. You’ll work hands-on across the full software development lifecycle, partner with cross-functional stakeholders, and apply strong engineering practices (testing, CI/CD, observability, and secure development) to deliver resilient, high-quality solutions. You’ll also have opportunities to contribute to AI-enabled capabilities and agent-driven tools that improve customer and employee experiences. Job Responsibilities: Design, develop, and maintain full stack solutions, including Java/Spring Boot backend services, RESTful microservices, and modern UI applications using React or Angular. Build secure, high-performing APIs, integrations, and user interfaces; contribute to service reliability, resiliency, and performance tuning. Collaborate daily with Product, Design, and Data & Analytics to refine requirements, estimate work, and deliver iteratively using Agile practices. Write clean, maintainable code with strong unit/integration test coverage; participate in code reviews and design discussions. Support and improve CI/CD pipelines and engineering automation; champion best practices in quality and developer productivity. Contribute to production support: troubleshooting, incident triage, root-cause analysis, and preventative improvements. Participate in application, data, and infrastructure architecture conversations and help evolve platform standards. Leverage enterprise-authorized AI coding assist tools within the work environment to improve code quality, delivery speed, and productivity across complex deliverables (e.g., code generation/refactoring, unit test creation, documentation), while validating outputs through peer review, automated testing, and secure coding standards; contribute learnings and reusable patterns to improve broader team effectiveness. Apply knowledge of tools within the Software Development Life Cycle toolchain, including enterprise-authorized AI-assisted development and automation capabilities, to improve the value realized by automation. Required qualifications, skills, and capabilities: Formal training or certification on software engineering concepts and 3+ years applied experience Proficiency in Java and Spring Boot, including building and operating REST APIs and microservices; strong Java 8 (lambdas/streams) + React/Angular full-stack development experience Experience with modern Agile delivery practices (Scrum/Kanban), CI/CD, and DevOps-aligned development (automated quality gates, release pipelines) Experience with cloud and/or container platforms (e.g., AWS or Cloud Foundry, Docker/Kubernetes) Working experience with databases: Oracle and/or NoSQL datastores such as Cassandra or MongoDB (data modeling, query performance, reliability) Experience developing Kafka producers/consumers in Java NoSQL experience: Cassandra / DynamoDB / Elastic Search Strong quality mindset (TDD, automation) and ability to lead design/code reviews and mentor engineers Hands-on experience using enterprise-authorized AI-assisted software development tools within the work environment (e.g., for coding, test creation, troubleshooting, or documentation) with demonstrated ability to critically evaluate, validate, and refine AI-generated outputs for correctness, performance, and security Understanding of responsible AI use in engineering workflows, including data sensitivity considerations, secure handling of inputs/outputs, and adherence to resiliency and security expectations; ability to guide peers on safe and effective usage within team practices Preferred qualifications, skills, and capabilities: Cross-team delivery leadership, PCI exposure, AWS cert AI/LLM experience (integrations, agentic workflows, RAG/tool-calling, tool/function calling, responsible AI fundamentals/basics) a plus Design and deliver market-leading technology products in a secure and scalable way as a seasoned member of an agile team",
       "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210777290",
       "postedAt": "2026-08-21T15:27:40+00:00",
-      "scrapedAt": "2026-09-05T15:19:43.385Z",
+      "scrapedAt": "2026-09-05T20:27:45.206Z",
       "score": 48,
       "reasons": [
         "software engineering title",
@@ -318,7 +318,7 @@
       "description": "Design and deliver market-leading technology products in a secure and scalable way as a seasoned member of an agile team As a Software Engineer III at JPMorgan Chase within the Consumer and Community Banking on the BBAO team, you will design, build, and support scalable backend services, APIs, and modern UI applications that enable seamless customer acquisition and account origination journeys. You’ll work hands-on across the full software development lifecycle, partner with cross-functional stakeholders, and apply strong engineering practices (testing, CI/CD, observability, and secure development) to deliver resilient, high-quality solutions. You’ll also have opportunities to contribute to AI-enabled capabilities and agent-driven tools that improve customer and employee experiences. Job Responsibilities: Design, develop, and maintain full stack solutions, including Java/Spring Boot backend services, RESTful microservices, and modern UI applications using React or Angular. Build secure, high-performing APIs, integrations, and user interfaces; contribute to service reliability, resiliency, and performance tuning. Collaborate daily with Product, Design, and Data & Analytics to refine requirements, estimate work, and deliver iteratively using Agile practices. Write clean, maintainable code with strong unit/integration test coverage; participate in code reviews and design discussions. Support and improve CI/CD pipelines and engineering automation; champion best practices in quality and developer productivity. Contribute to production support: troubleshooting, incident triage, root-cause analysis, and preventative improvements. Participate in application, data, and infrastructure architecture conversations and help evolve platform standards. Leverage enterprise-authorized AI coding assist tools within the work environment to improve code quality, delivery speed, and productivity across complex deliverables (e.g., code generation/refactoring, unit test creation, documentation), while validating outputs through peer review, automated testing, and secure coding standards; contribute learnings and reusable patterns to improve broader team effectiveness. Apply knowledge of tools within the Software Development Life Cycle toolchain, including enterprise-authorized AI-assisted development and automation capabilities, to improve the value realized by automation. Required qualifications, skills, and capabilities: Formal training or certification on software engineering concepts and 3+ years applied experience Proficiency in Java and Spring Boot, including building and operating REST APIs and microservices; strong Java 8 (lambdas/streams) + React/Angular full-stack development experience Experience with modern Agile delivery practices (Scrum/Kanban), CI/CD, and DevOps-aligned development (automated quality gates, release pipelines) Experience with cloud and/or container platforms (e.g., AWS or Cloud Foundry, Docker/Kubernetes) Working experience with databases: Oracle and/or NoSQL datastores such as Cassandra or MongoDB (data modeling, query performance, reliability) Experience developing Kafka producers/consumers in Java NoSQL experience: Cassandra / DynamoDB / Elastic Search Strong quality mindset (TDD, automation) and ability to lead design/code reviews and mentor engineers Hands-on experience using enterprise-authorized AI-assisted software development tools within the work environment (e.g., for coding, test creation, troubleshooting, or documentation) with demonstrated ability to critically evaluate, validate, and refine AI-generated outputs for correctness, performance, and security Understanding of responsible AI use in engineering workflows, including data sensitivity considerations, secure handling of inputs/outputs, and adherence to resiliency and security expectations; ability to guide peers on safe and effective usage within team practices Preferred qualifications, skills, and capabilities: Cross-team delivery leadership, PCI exposure, AWS cert AI/LLM experience (integrations, agentic workflows, RAG/tool-calling, tool/function calling, responsible AI fundamentals/basics) a plus Design and deliver market-leading technology products in a secure and scalable way as a seasoned member of an agile team",
       "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210777299",
       "postedAt": "2026-08-21T15:32:09+00:00",
-      "scrapedAt": "2026-09-05T15:19:43.385Z",
+      "scrapedAt": "2026-09-05T20:27:45.206Z",
       "score": 48,
       "reasons": [
         "software engineering title",
@@ -340,8 +340,8 @@
       "state": "healthy",
       "jobsFound": 14,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 771
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 283
     },
     {
       "companyId": "practo",
@@ -350,8 +350,8 @@
       "state": "healthy",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 1466
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 528
     },
     {
       "companyId": "observe-ai",
@@ -360,8 +360,8 @@
       "state": "healthy",
       "jobsFound": 17,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 245
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 286
     },
     {
       "companyId": "jpmc",
@@ -370,8 +370,8 @@
       "state": "healthy",
       "jobsFound": 32,
       "matchesFound": 6,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 19429
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 19381
     },
     {
       "companyId": "microsoft",
@@ -380,8 +380,8 @@
       "state": "healthy",
       "jobsFound": 6,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 1274
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 4440
     },
     {
       "companyId": "cadence",
@@ -390,8 +390,8 @@
       "state": "healthy",
       "jobsFound": 4,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 5000
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 5450
     },
     {
       "companyId": "jiohotstar",
@@ -400,8 +400,8 @@
       "state": "healthy",
       "jobsFound": 28,
       "matchesFound": 4,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 7713
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 6734
     },
     {
       "companyId": "ibm-isl",
@@ -410,8 +410,8 @@
       "state": "healthy",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 193
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 285
     },
     {
       "companyId": "ameriprise",
@@ -420,8 +420,8 @@
       "state": "degraded",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 3483,
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 3617,
       "error": "fetch failed"
     },
     {
@@ -431,8 +431,8 @@
       "state": "degraded",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 1657,
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 1371,
       "error": "HTTP 422 for https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
     },
     {
@@ -442,8 +442,8 @@
       "state": "healthy",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 4188
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 3397
     },
     {
       "companyId": "nutanix",
@@ -452,8 +452,8 @@
       "state": "healthy",
       "jobsFound": 10,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 1213
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 992
     },
     {
       "companyId": "societe-generale",
@@ -462,8 +462,8 @@
       "state": "healthy",
       "jobsFound": 100,
       "matchesFound": 4,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 8187
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 7469
     },
     {
       "companyId": "cisco",
@@ -472,8 +472,8 @@
       "state": "healthy",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 3007
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 2956
     },
     {
       "companyId": "nike",
@@ -482,8 +482,8 @@
       "state": "healthy",
       "jobsFound": 10,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 2136
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 1976
     },
     {
       "companyId": "thoughtworks",
@@ -492,8 +492,8 @@
       "state": "healthy",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 408
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 296
     },
     {
       "companyId": "ather",
@@ -502,8 +502,8 @@
       "state": "degraded",
       "jobsFound": 0,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 1429,
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 1287,
       "error": "HTTP 403 for https://careers.atherenergy.com/jobs?weekdayJdUid=247705"
     },
     {
@@ -513,8 +513,8 @@
       "state": "healthy",
       "jobsFound": 21,
       "matchesFound": 0,
-      "checkedAt": "2026-09-05T15:19:30.568Z",
-      "durationMs": 1233
+      "checkedAt": "2026-09-05T20:27:32.215Z",
+      "durationMs": 2378
     }
   ],
   "notifications": {
